@@ -36,3 +36,4 @@
 | 小说 200 | 300 | [小说 200.md](小说%20200.md) |
 | 形状 英语 | 35 | [形状 英语.md](形状%20英语.md) |
 | Gillian Anderson (Full Episode) \| Conan O'Brien Needs A Friend | 87 | [Gillian Anderson (Full Episode) _ Conan O'Brien Needs A Friend.md](Gillian%20Anderson%20%28Full%20Episode%29%20_%20Conan%20O%27Brien%20Needs%20A%20Friend.md) |
+| Hillbilly Elegy: A Memoir of a Family and Culture in Crisis - Notebook | 323 | [Hillbilly Elegy_ A Memoir of a Family and Culture in Crisis - Notebook.md](Hillbilly%20Elegy_%20A%20Memoir%20of%20a%20Family%20and%20Culture%20in%20Crisis%20-%20Notebook.md) |

@@ -1,155 +1,207 @@
-# English Study — Need-to-Know Hit List (36 words)
+# English Study — Need-to-Know Hit List (51 words)
 
-JC's flagged words from Days 1–4, with full USE + PRONOUNCE entries. Compiled 2026-10-15.
-
-## Day 1
+JC's curated list — each word with its Chinese meaning, real-world American pronunciation, and one concrete example. Compiled 2026-10-18.
 
 ### 2. Scalp (头皮)
-**USE:** Not a daily-chat word — it lives at the dermatologist or hair salon: "itchy scalp," dandruff shampoo, "scalp massage" (a classic salon upsell). You'd never say "my scalp" at dinner.
-**PRONOUNCE:** SKALP — one syllable; "sk" glides together (like "school"), short "a" as in "cat."
-
-### 5. Eyelash (睫毛)
-**USE:** Mostly beauty/makeup — "mascara lengthens your eyelashes," "false eyelashes." One great idiom: "didn't bat an eyelash" = showed zero reaction ("She insulted him and he didn't bat an eyelash").
-**PRONOUNCE:** EYE-lash — stress on EYE; "lash" like "cash."
+**Pronunciation:** SKALP — one syllable; "sk" glides together (like "school"), short "a" as in "cat."
+**Example:** "My scalp gets itchy in winter."
 
 ### 6. Eyelid (眼皮)
-**USE:** Eye-doctor and complaint word — "my eyelid is twitching" (everyone gets this from stress or tiredness), "swollen eyelid," "droopy eyelids" (aging). Not small-talk material.
-**PRONOUNCE:** EYE-lid — stress on EYE; "lid" like "kid."
+**Pronunciation:** EYE-lid — stress on EYE; "lid" like "kid."
+**Example:** "My eyelid is twitching."
 
 ### 7. Pupil (瞳孔)
-**USE:** Eye context — "dilated pupils" (at the eye doctor; also romance: "her pupils dilated" = she's interested; or crime shows: drug use). Warning: "pupil" also means "student," but that use is formal/archaic in American English — Americans just say "student."
-**PRONOUNCE:** PYOO-pul — stress on PYOO, like the start of "pure."
+**Pronunciation:** PYOO-pul — stress on PYOO, like the start of "pure."
+**Example:** "Her pupils dilated."
 
 ### 8. Iris (虹膜)
-**USE:** Rare in conversation — eye doctor, camera lenses ("the iris of the lens"), or poetic description ("her green irises"). Also a woman's name and a flower. In casual speech Americans say "the colored part of the eye" more often.
-**PRONOUNCE:** EYE-ris — stress on EYE; second half like "Chris."
+**Pronunciation:** EYE-ris — stress on EYE; second half like "Chris."
+**Example:** "She has green irises."
 
-### 11. Nostril (鼻孔)
-**USE:** Precision word — doctor, anatomy, or animals. "Flared nostrils" = furious (person or bull). The COVID era made it common: "swab both nostrils." Otherwise Americans just say "nose."
-**PRONOUNCE:** NOS-tril — stress on NOS ("cost" without the "t"). Note: the "tr" blends into a "ch" sound → "NOS-chril" (like tree → "chree").
+### 14. Gum (牙龈)
+**Pronunciation:** GUM — rhymes with "drum."
+**Example:** "The dentist warned me about bleeding gums."
 
 ### 19. Earlobe (耳垂)
-**USE:** Piercing word — "earlobe piercing" vs "cartilage piercing," "stretched earlobes." Otherwise Americans just say "ear."
-**PRONOUNCE:** EAR-lobe — stress on EAR; "lobe" rhymes with "robe."
+**Pronunciation:** EAR-lobe — stress on EAR; "lobe" rhymes with "robe."
+**Example:** "She got an earlobe piercing."
 
 ### 22. Armpit (腋窝)
-**USE:** Informal — the deodorant-aisle word: "armpit sweat," "shave your armpits." Slang shortcut "pit": "pit stains" (sweat marks on a shirt — very common phrase). In polite or formal contexts say "underarm" (that's what the ads say).
-**PRONOUNCE:** ARM-pit — stress on ARM.
+**Pronunciation:** ARM-pit — stress on ARM.
+**Example:** "He had pit stains on his shirt."
+
+### 28. Belly button (肚脐)
+**Pronunciation:** BEL-ee BUD-'n — the double "t" softens to a quick "d" and the final vowel melts away: "belly-BUD'n."
+**Example:** "Where's your belly button?"
 
 ### 32. Thigh (大腿)
-**USE:** Two worlds: food — "chicken thighs" (menu staple, juicier and cheaper than breast); fitness — "thigh gap" (beauty-culture term), "inner thighs" (workout target). Fashion: "thigh-high boots."
-**PRONOUNCE:** THY — voiceless "th" (tongue between teeth, air only) + "eye"; rhymes with "high."
+**Pronunciation:** THY — voiceless "th" (tongue between teeth, air only) + "eye"; rhymes with "high."
+**Example:** "I ordered chicken thighs for dinner."
 
 ### 34. Shin (小腿前侧)
-**USE:** Sports word — "shin guards" (soccer; every kid who played soccer wore them), "shin splints" (runners' pain), "bark your shin" (smack it on furniture — the classic household injury).
-**PRONOUNCE:** SHIN — "sh" as in "shoe" + "in." Don't let it slide into "sin."
+**Pronunciation:** SHIN — "sh" as in "shoe" + "in." Don't let it slide into "sin."
+**Example:** "I barked my shin on the coffee table."
 
 ### 35. Calf (小腿肚)
-**USE:** Two meanings — context decides: (1) lower leg — "calf raises" (gym exercise; calves are famously hard to grow — a running gym joke); (2) baby cow — "the cow and her calf." Plural of the leg is "calves."
-**PRONOUNCE:** KAF — one syllable; the "l" is nearly silent; "a" as in "cat."
+**Pronunciation:** KAF — one syllable; the "l" is nearly silent; "a" as in "cat."
+**Example:** "Calf raises are a classic gym exercise."
 
 ### 38. Sole (脚底)
-**USE:** Two meanings: (1) bottom of foot or shoe — "the soles of my feet ache," "rubber soles"; (2) the flatfish — "sole" on restaurant menus. Same spelling and pronunciation as "sole" = only ("sole survivor").
-**PRONOUNCE:** SOHL — rhymes with "soul" / "bowl."
-
-## Day 2
+**Pronunciation:** SOHL — rhymes with "soul" / "bowl."
+**Example:** "The soles of my feet ache."
 
 ### 48. Knuckle (指关节)
-**USE:** "Knuckle down" = get serious and work hard ("Time to knuckle down"), "brass knuckles" (the weapon), "white-knuckle" (terrifying: "a white-knuckle flight"), "knuckle sandwich" (joking threat = a punch).
-**PRONOUNCE:** NUK-ul — the "k" is SILENT. Never "kuh-nuckle."
+**Pronunciation:** NUK-ul — the "k" is SILENT. Never "kuh-nuckle."
+**Example:** "Time to knuckle down and finish this."
 
 ### 49. Earwax (耳屎)
-**USE:** Doctor/drugstore word — "earwax buildup," and the famous Q-tips warning ("don't stick Q-tips in your ears" — every American mom said this). Not dinner conversation.
-**PRONOUNCE:** EAR-waks — stress on EAR; "wax" like "tax."
-
-### 50. Snot (鼻涕, 口语)
-**USE:** The crude everyday word — kids say it, adults say it jokingly. "Snot-nosed kid" = runny-nose child; also = spoiled brat ("snot-nosed rich kid"). Polite word = "mucus." Never in formal settings.
-**PRONOUNCE:** SNOT — rhymes with "not"; short "o."
-
-### 51. Mucus (黏液; 鼻涕, 正式)
-**USE:** The doctor's word for snot — "mucus buildup," "coughing up mucus." Pharmacy: "expectorant" breaks up mucus. Note the confusing pair: "mucus" (noun) vs "mucous" (adjective) — even natives mix them up.
-**PRONOUNCE:** MYOO-kus — stress on MYOO.
+**Pronunciation:** EAR-waks — stress on EAR; "wax" like "tax."
+**Example:** "The doctor said I have earwax buildup."
 
 ### 52. Saliva (唾液)
-**USE:** Doctor/dentist word — "saliva test" (COVID, drug tests), "excess saliva." Everyday Americans say "spit," or "drool" (saliva dripping — babies, dogs). "Salivate" = drool over something you want ("Investors are salivating").
-**PRONOUNCE:** suh-LY-vuh — stress on LY, the second syllable.
+**Pronunciation:** suh-LY-vuh — stress on LY, the second syllable.
+**Example:** "They gave me a saliva test."
+
+### 53. Spit (口水)
+**Pronunciation:** SPIT — rhymes with "sit"; short "i."
+**Example:** "He's the spitting image of his father."
 
 ### 57. Pus (脓)
-**USE:** Medical/gross word — wound infections. Never casual; the polite doctor phrase is "drainage" or "discharge." You'll hear it on medical shows, not at dinner.
-**PRONOUNCE:** PUS — rhymes with "bus."
+**Pronunciation:** PUS — rhymes with "bus."
+**Example:** "The nurse cleaned the pus from the wound."
 
 ### 58. Phlegm (痰)
-**USE:** Doctor's word — "coughing up phlegm" (bronchitis, bad colds). The great spelling trap: the "g" is silent. Everyday Americans just say "stuff in my chest" or "mucus."
-**PRONOUNCE:** FLEM — the "g" is SILENT; rhymes with "them."
-
-### 59. Booger (鼻屎, 口语)
-**USE:** The silly/kid word — what you get from picking your nose. Playground vocabulary; adults say it jokingly. Slightly less crude cousin: "snot." Never formal.
-**PRONOUNCE:** BOO-ger — stress on BOO.
+**Pronunciation:** FLEM — the "g" is SILENT; rhymes with "them."
+**Example:** "He's coughing up phlegm."
 
 ### 60. Dandruff (头皮屑)
-**USE:** The shampoo-aisle word — "dandruff shampoo" (Head & Shoulders built an empire on it), "anti-dandruff." The visual: flakes on dark shoulders. Mildly embarrassing topic everyone knows.
-**PRONOUNCE:** DAN-druf — stress on DAN; ends like "ruff."
+**Pronunciation:** DAN-druf — stress on DAN; ends like "ruff."
+**Example:** "He uses dandruff shampoo."
 
-## Day 3
+### 62. Body odor (体味)
+**Pronunciation:** BOD-ee OH-dur — stress BOD and OH. "Odor" starts with a long "oh", not "oh-DOR".
+**Example:** "After that run, my body odor was terrible."
 
-### 71. Burp (打嗝)
-**USE:** Common but slightly rude word. Burping loudly at the table is impolite in the US; kids find it hilarious. Polite dodge: "excuse me." Also "burp the baby." Ex: "He burped loudly after finishing his burger." Collocations: let out a burp, burp a baby.
-**PRONOUNCE:** BURP — the "ur" is the American "er", tongue pulled back: BRRRP. Not "boo-rup".
+### 72. Hiccup (打嗝 (呃逆))
+**Pronunciation:** HIK-up — stress on HIK. "Hic" like "hick", "cup" like the cup you drink from.
+**Example:** "I got the hiccups after drinking soda too fast."
 
-### 72. Hiccup (打嗝, 呃逆)
-**USE:** Common, usually plural — you "get/have the hiccups." Also business talk: "a hiccup in the plan" = a small setback. Ex: "I got the hiccups after drinking soda too fast." / "There was a slight hiccup with the delivery." Collocations: get the hiccups, cure hiccups.
-**PRONOUNCE:** HIK-up — stress on HIK. "Hic" like "hick", "cup" like the cup you drink from.
+### 74. Shiver (发抖 (冷))
+**Pronunciation:** SHIV-er — stress on SHIV. "V" not "b": bite your lower lip. Not "shibber".
+**Example:** "She was shivering in the cold rain."
 
-### 74. Shiver (发抖, 冷)
-**USE:** Common. Shiver = shake from COLD (that's the core). Also "a shiver ran down my spine" = fear/excitement. Ex: "She was shivering in the cold rain." Collocations: shiver with cold, shivering hands.
-**PRONOUNCE:** SHIV-er — stress on SHIV. "V" not "b": bite your lower lip. Not "shibber".
-
-### 75. Tremble (颤抖, 怕)
-**USE:** Common, slightly more formal/dramatic than "shake." Tremble = shake from FEAR, nerves, or strong emotion (vs. shiver = cold). Ex: "His hands trembled when he held the microphone." Collocations: tremble with fear/rage, trembling voice.
-**PRONOUNCE:** TREM-bul — stress on TREM. "-ble" is just a quick "bul", unstressed. Not "trem-bell".
+### 75. Tremble (颤抖 (怕))
+**Pronunciation:** TREM-b'l — the middle vowel vanishes entirely; it's one flick of the tongue: "TREMBL".
+**Example:** "His hands trembled when he held the microphone."
 
 ### 80. Sniff (嗅; 闻)
-**USE:** Common. Smell by short breaths in — dogs sniff, people sniff perfume. Also "sniff out" (discover by searching), "sniff around" (investigate nosily), "sniffed back tears" (crying). Ex: "The dog sniffed my hand." / "Let me sniff that perfume." Collocations: take a sniff, sniff out.
-**PRONOUNCE:** SNIFF — short "i" like "sit" + double f. Rhymes with "stiff". Not "sneef".
+**Pronunciation:** SNIFF — short "i" like "sit" + double f. Rhymes with "stiff". Not "sneef".
+**Example:** "The dog sniffed my hand."
 
-## Day 4
+### 83. Frown (皱眉)
+**Pronunciation:** FROWN — rhymes with "brown"; "ow" like "cow."
+**Example:** "Society frowns upon rudeness."
 
-### 86. Smirk (得意的坏笑)
-**USE:** The smug one-sided smile — never a compliment. "Wipe that smirk off your face." Villains and know-it-alls smirk. If someone says "he smirked," they disapprove of him.
-**PRONOUNCE:** SMURK — "ir" like "her"; one syllable.
-
-### 87. Gasp (倒吸一口气)
-**USE:** The shock inhale — "the crowd gasped." Also "gasp for air" (can't breathe — drowning, asthma, running). "Gasp" is always sudden and involuntary.
-**PRONOUNCE:** GASP — short "a" like "cat"; ends with "sp."
-
-### 89. Glare (怒视)
-**USE:** The angry stare — "she glared at him." Also light: "the sun's glare" (blinding brightness — sunglasses ads). "Glaring" as adjective = obvious ("a glaring mistake").
-**PRONOUNCE:** GLAIR — rhymes with "stare"/"care."
+### 85. Grin (咧嘴笑)
+**Pronunciation:** GRIN — rhymes with "win"; short "i."
+**Example:** "She grinned from ear to ear."
 
 ### 90. Squint (眯眼看)
-**USE:** "Squint at" — partly closing your eyes to see better (sun, tiny text). "Squint your eyes." Eye doctors test this. Very physical, everyday word.
-**PRONOUNCE:** SKWINT — slam s-k-w together; rhymes with "quint."
+**Pronunciation:** SKWINT — slam s-k-w together; rhymes with "quint."
+**Example:** "She had to squint to read the sign."
 
 ### 91. Pout (撅嘴)
-**USE:** Pushing your lips out — kids do it when upset ("don't pout"), models do it for photos ("duck face" is the selfie version). "Pouty lips" in beauty talk.
-**PRONOUNCE:** POWT — rhymes with "out"; "ou" like "cow."
+**Pronunciation:** POWT — rhymes with "out"; "ou" like "cow."
+**Example:** "Don't pout — it's not a big deal."
 
-### 94. Bite one's lip (咬嘴唇)
-**USE:** Nervousness or holding back emotion — "she bit her lip to keep from crying." Also flirtation in romance novels. "Bite your tongue" is the related idiom (stop yourself from speaking).
-**PRONOUNCE:** BYTE wunz LIP — "bite" rhymes with "light."
+### 92. Raise one's eyebrows (挑眉)
+**Pronunciation:** RAYZ wunz EYE-browz — stress RAYZ and EYE.
+**Example:** "She raised an eyebrow at his excuse."
+
+### 93. Roll one's eyes (翻白眼)
+**Pronunciation:** ROHL wunz EYZ — "eyes" is one smooth "eyez," not two beats.
+**Example:** "She rolled her eyes at his joke."
 
 ### 95. Grimace (痛苦地龇牙咧嘴)
-**USE:** The pain face — twisting your features (tasting something sour, stubbing your toe). "He grimaced as the nurse gave the shot." More intense than a frown, less than a scream.
-**PRONOUNCE:** GRIM-iss — stress on GRIM; ends like "miss."
-
-### 96. Blush (脸红)
-**USE:** "Blush" the verb = turn red from embarrassment ("she blushed when he complimented her"). Also the makeup — "blush" (cheek color). "Blushing bride" (the classic wedding phrase).
-**PRONOUNCE:** BLUSH — rhymes with "brush"; "u" like "cup."
+**Pronunciation:** GRIM-iss — stress on GRIM; ends like "miss."
+**Example:** "He grimaced as the nurse gave the shot."
 
 ### 99. Hair gets tangled (头发打结)
-**USE:** The long-hair complaint — "my hair gets tangled after swimming." Conditioner ads live on this. "Tangled" also works figuratively: "tangled up in" = involved in a mess ("tangled up in drama").
-**PRONOUNCE:** HAIR gets TANG-guld — stress TANG; "tangle" rhymes with "angle."
+**Pronunciation:** HAIR gets TANG-g'ld — the middle vowel in "tangled" nearly vanishes: "TANG-gld."
+**Example:** "My hair gets tangled after swimming."
 
 ### 100. Have goosebumps (起鸡皮疙瘩)
-**USE:** The standard phrase — "that song gives me goosebumps." Also "gooseflesh" (same thing, less common). Cold, fear, or awe — the tiny bumps. "I got goosebumps" is the everyday version.
-**PRONOUNCE:** hav GOOS-bumps — stress GOOS; "goose" like the bird.
+**Pronunciation:** hav GOOS-bumps — stress GOOS; "goose" like the bird.
+**Example:** "That song gives me goosebumps."
+
+### 102. Have a runny nose (流鼻涕)
+**Pronunciation:** hav-uh RUN-ee nohz — in natural speech "have a" melts into one quick "hav-uh"; "nose" ends with a "z" sound, not "s."
+**Example:** "I have a runny nose."
+
+### 105. Clear your throat (清嗓子)
+**Pronunciation:** kleer-yer THROHT — "your" relaxes to "yer"; the "th" stays voiceless (air only, like "think").
+**Example:** "She cleared her throat before the announcement."
+
+### 106. Crack your knuckles (掰手指关节)
+**Pronunciation:** krak-yer NUK-ulz — "your" relaxes to "yer"; the "k" in "kn" is silent.
+**Example:** "Stop cracking your knuckles!"
+
+### 110. My nose is stuffed up (鼻子塞住了)
+**Pronunciation:** my NOHZ-iz STUFT-up — the words link into one smooth run: "nohz-iz."
+**Example:** "My nose is stuffed up."
+
+### 117. Small intestine (小肠)
+**Pronunciation:** smawl in-TES-t'n — the final "tin" melts into a quick "t'n."
+**Example:** "Nutrients are absorbed in the small intestine."
+
+### 118. Large intestine (大肠)
+**Pronunciation:** larj in-TES-t'n — same melt as #117; "large" keeps the soft "g," like the "zh" in "beige."
+**Example:** "The large intestine absorbs water from food."
+
+### 119. Colon (结肠)
+**Pronunciation:** KOH-l'n — the "lun" melts into one quick flick: "KOH-ln."
+**Example:** "Everyone should get a colonoscopy after turning 45."
+
+### 120. Pancreas (胰腺)
+**Pronunciation:** PANG-kree-us — stress PANG; "cre" like the start of "create."
+**Example:** "The pancreas makes insulin."
+
+### 122. I feel bloated (肚子胀)
+**Pronunciation:** uh feel BLOH-did — the "t" softens to a quick "d" between vowels; "oa" is one "oh" sound, like "boat."
+**Example:** "I'm so bloated."
+
+### 123. Spleen (脾)
+**Pronunciation:** SPLEEN — one syllable, rhymes with "queen." Push through the "spl-" blend without adding a vowel.
+**Example:** "He ruptured his spleen in the crash."
+
+### 124. Gallbladder (胆囊)
+**Pronunciation:** GAWL-blad'r — stress on GAWL; the last beat is one quick flick, barely a full syllable.
+**Example:** "I had my gallbladder out last year."
+
+### 125. Bladder (膀胱)
+**Pronunciation:** BLAD'r — one quick flick at the end, barely a full syllable.
+**Example:** "I have a full bladder."
+
+### 127. Urethra (尿道)
+**Pronunciation:** yoo-REE-thruh — stress on REE; the "th" stays the soft "think" th.
+**Example:** "The urethra carries urine out of the body."
+
+### 128. Esophagus (食管)
+**Pronunciation:** eh-SOFuh-gus — the middle "uh" melts into SOF; three beats, not four.
+**Example:** "The pill got stuck in my esophagus."
+
+### 129. Trachea (气管)
+**Pronunciation:** TRAY-kee-uh — "tra" sounds like "tray," not "track."
+**Example:** "Food went down the wrong pipe."
+
+### 132. Pharynx (咽)
+**Pronunciation:** FAR-inks — "ph" = f, and the "-nx" sounds like "nks."
+**Example:** "The doctor wrote 'pharyngeal' on my prescription."
+
+### 135. Salivary glands (唾液腺)
+**Pronunciation:** SAL-uh-vair-ee GLANDZ — four quick beats, middle vowels all melt to schwa; "glands" ends with a "z."
+**Example:** "My salivary glands are swollen."
+
+### 136. Nasal cavity (鼻腔)
+**Pronunciation:** NAY-zul KAV-uh-dee — the "t" in "cavity" softens to a quick "d"; "nasal" keeps the "z" sound, not "s."
+**Example:** "The spray goes into your nasal cavity."

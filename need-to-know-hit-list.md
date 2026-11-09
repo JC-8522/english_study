@@ -1,6 +1,6 @@
-# English Study — Need-to-Know Hit List (51 words)
+# English Study — Need-to-Know Hit List (67 words)
 
-JC's curated list — each word with its Chinese meaning, real-world American pronunciation, and one concrete example. Compiled 2026-10-18.
+JC's curated list — each word with its Chinese meaning, real-world American pronunciation, and one concrete example. Compiled 2026-10-18; Day 8 additions 2026-10-19.
 
 ### 2. Scalp (头皮)
 **Pronunciation:** SKALP — one syllable; "sk" glides together (like "school"), short "a" as in "cat."
@@ -205,3 +205,67 @@ JC's curated list — each word with its Chinese meaning, real-world American pr
 ### 136. Nasal cavity (鼻腔)
 **Pronunciation:** NAY-zul KAV-uh-dee — the "t" in "cavity" softens to a quick "d"; "nasal" keeps the "z" sound, not "s."
 **Example:** "The spray goes into your nasal cavity."
+
+### 161. Sperm duct (输精管)
+**Pronunciation:** SPURM dukt — "duct" is "duck" + a hard "t" at the end.
+**Example:** "A vasectomy cuts the sperm ducts."
+
+### 162. Prostate gland (前列腺)
+**Pronunciation:** PROS-tayt gland — stress PROS; "tate" like "state" without the "s."
+**Example:** "He gets his prostate checked every year."
+
+### 163. Seminal vesicle (精囊)
+**Pronunciation:** SEM-nul VES-kul — stress SEM and VES; the middle vowels all melt to schwa.
+**Example:** "The seminal vesicles produce fluid for semen."
+
+### 164. Ovary (卵巢)
+**Pronunciation:** OH-vree — stress OH; the rest melts into one quick beat.
+**Example:** "She has a cyst on her ovary."
+
+### 165. Ovaries (卵巢, 复数)
+**Pronunciation:** OH-vreez — two quick beats, ends with a "z."
+**Example:** "She had surgery on her ovaries."
+
+### 166. Fallopian tubes (输卵管)
+**Pronunciation:** fuh-LOH-pee-un toobz — stress LOH; "tubes" ends with a "z."
+**Example:** "She had her tubes tied after her second child."
+
+### 167. Uterus (子宫)
+**Pronunciation:** YOO-duh-rus — stress YOO; the "t" softens to a "d" between vowels.
+**Example:** "Fibroids grow in the uterus."
+
+### 168. Cervix (子宫颈)
+**Pronunciation:** SUR-viks — stress SUR; "vix" like "Vicks."
+**Example:** "A Pap smear checks the cervix for cancer."
+
+### 169. Vagina (阴道)
+**Pronunciation:** vuh-JY-nuh — stress JY ("jy" like the start of "giant").
+**Example:** "The doctor checked the cervix and vagina."
+
+### 170. Clitoris (阴蒂)
+**Pronunciation:** KLID-uh-ris — stress KLID; the "t" softens to a "d" in natural speech.
+**Example:** "The clitoris is part of female anatomy."
+
+### 171. Labia (阴唇)
+**Pronunciation:** LAY-bee-uh — stress LAY.
+**Example:** "The labia are part of the external female anatomy."
+
+### 172. Labia majora (大阴唇)
+**Pronunciation:** LAY-bee-uh muh-JOR-uh — stress LAY and JOR.
+**Example:** "The labia majora are the outer folds."
+
+### 173. Labia minora (小阴唇)
+**Pronunciation:** LAY-bee-uh mih-NOR-uh — stress LAY and NOR.
+**Example:** "The labia minora are the inner folds."
+
+### 178. Cartilage (软骨)
+**Pronunciation:** KAR-duh-lij — stress KAR; the "t" softens to a "d."
+**Example:** "He tore the cartilage in his knee."
+
+### 179. Tendon (腱)
+**Pronunciation:** TEN-dun — stress TEN.
+**Example:** "He tore his Achilles tendon playing basketball."
+
+### 180. Ligament (韧带)
+**Pronunciation:** LIG-uh-m'nt — stress LIG; the ending melts into one beat.
+**Example:** "She tore a ligament in her knee."

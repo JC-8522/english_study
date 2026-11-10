@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_documents": 37,
+  "source_rows_scanned": 18351,
+  "entries": 16930,
+  "categories": 188,
+  "examples": 33860,
+  "chapter_copies": 188,
+  "other_original_files_unchanged": 37,
+  "unresolved_original_labels": 79
+}

@@ -1,6 +1,6 @@
-# Verbs: speaking & communication
+# 动词：说话与交流
 
-374 words — [← Back to all categories](../active%20words.md)
+374 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

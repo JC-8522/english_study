@@ -1,6 +1,6 @@
-# Work & money
+# 工作与金钱
 
-650 words — [← Back to all categories](../active%20words.md)
+650 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

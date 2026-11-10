@@ -1,6 +1,6 @@
-# Arts & media
+# 艺术与媒体
 
-350 words — [← Back to all categories](../active%20words.md)
+350 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

@@ -1,6 +1,6 @@
-# Verbs: action & movement
+# 动词：动作与移动
 
-924 words — [← Back to all categories](../active%20words.md)
+924 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

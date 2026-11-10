@@ -1,6 +1,6 @@
-# Travel & transport
+# 旅行与交通
 
-210 words — [← Back to all categories](../active%20words.md)
+210 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

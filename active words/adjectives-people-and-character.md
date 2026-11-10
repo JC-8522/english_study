@@ -1,6 +1,6 @@
-# Adjectives: people & character
+# 形容词：人物与性格
 
-47 words — [← Back to all categories](../active%20words.md)
+47 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

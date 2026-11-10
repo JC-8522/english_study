@@ -1,6 +1,6 @@
-# Verbs: change & states
+# 动词：变化与状态
 
-475 words — [← Back to all categories](../active%20words.md)
+475 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

@@ -1,6 +1,6 @@
-# Verbs: work & daily life
+# 动词：工作与日常生活
 
-461 words — [← Back to all categories](../active%20words.md)
+461 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

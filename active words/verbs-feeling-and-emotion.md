@@ -1,6 +1,6 @@
-# Verbs: feeling & emotion
+# 动词：感受与情绪
 
-65 words — [← Back to all categories](../active%20words.md)
+65 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

@@ -1,6 +1,6 @@
-# Weather & seasons
+# 天气与季节
 
-59 words — [← Back to all categories](../active%20words.md)
+59 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

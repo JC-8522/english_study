@@ -1,6 +1,6 @@
-# Body & health
+# 身体与健康
 
-490 words — [← Back to all categories](../active%20words.md)
+490 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

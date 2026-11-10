@@ -1,6 +1,6 @@
-# Adjectives: things & qualities
+# 形容词：事物与性质
 
-789 words — [← Back to all categories](../active%20words.md)
+789 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

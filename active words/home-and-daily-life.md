@@ -1,6 +1,6 @@
-# Home & daily life
+# 家居与日常生活
 
-643 words — [← Back to all categories](../active%20words.md)
+643 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

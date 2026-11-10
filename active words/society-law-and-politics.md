@@ -1,6 +1,6 @@
-# Society, law & politics
+# 社会、法律与政治
 
-367 words — [← Back to all categories](../active%20words.md)
+367 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

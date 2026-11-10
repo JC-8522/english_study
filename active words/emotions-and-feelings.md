@@ -1,6 +1,6 @@
-# Emotions & feelings
+# 情绪与感受
 
-274 words — [← Back to all categories](../active%20words.md)
+274 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

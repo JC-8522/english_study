@@ -1,6 +1,6 @@
-# Places & directions
+# 地点与方位
 
-413 words — [← Back to all categories](../active%20words.md)
+413 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

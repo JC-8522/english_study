@@ -1,6 +1,6 @@
-# Sports & leisure
+# 运动与休闲
 
-138 words — [← Back to all categories](../active%20words.md)
+138 words — [← 返回所有分类](../active%20words.md)
 
 | Word | Pronunciation | Stress / How to read | Chinese meaning |
 | --- | --- | --- | --- |

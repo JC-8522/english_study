@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "source_documents": 37,
+  "source_rows_scanned": 18351,
+  "entries": 15744,
+  "categories": 184,
+  "examples": 31488,
+  "chapter_copies": 184,
+  "all_original_files_unchanged": 38,
+  "removed_person_name_entries": 1186,
+  "explicitly_excluded_name_source_rows": 1190,
+  "contents": "分类词库/README.md",
+  "unresolved_original_labels": 79
+}

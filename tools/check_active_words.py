@@ -1,4 +1,4 @@
-"""Audit the consolidated vocabulary and its readable chapter copies (stdlib only)."""
+"""Audit the vocabulary chapters and their reading index (stdlib only)."""
 from collections import Counter, defaultdict
 import csv
 import hashlib
@@ -33,34 +33,52 @@ def read_tsv(name):
 
 def main():
     manifest = json.loads((DATA / 'manifest.json').read_text(encoding='utf8'))
-    master = (LIBRARY / 'active words.md').read_text(encoding='utf8')
     assert LIBRARY.is_dir() and CHAPTERS.is_dir() and DATA.is_dir()
-    assert (ROOT / 'README.md').is_file() and (LIBRARY / 'README.md').is_file()
+    contents = LIBRARY / 'README.md'
+    assert (ROOT / 'README.md').is_file() and contents.is_file()
     assert not (ROOT / 'study').exists(), 'Old generated layout remains'
     assert set(manifest['user_excluded_categories']) == EXCLUDED_CATEGORIES
     assert not EXCLUDED_CATEGORIES.intersection(manifest['category_counts'])
-    groups = defaultdict(list)
+    counts = {}
     word_lines = {}
-    category = None
-    for line in master.splitlines():
-        if line.startswith('## ') and line[3:] in manifest['category_counts']:
-            category = line[3:]
-        match = re.match(r'^(\d+)\. \*\*(.*?)\*\*，读音：(.+?)，重音：(.+?)，中文：(.+?)；口语：① (.+) ② (.+)$', line)
-        if not match:
-            assert not re.match(r'^\d+\. \*\*', line), 'Malformed entry: ' + line[:100]
-            continue
-        assert category, 'Entry outside a category'
-        number, word, pronunciation, stress, meaning, ex1, ex2 = match.groups()
-        assert int(number) == len(groups[category]) + 1, (category, number)
-        key = normalize(word)
-        assert key not in word_lines, 'Duplicate: ' + key
-        assert all(x.strip() and x.strip() != '—' for x in (pronunciation, stress, meaning, ex1, ex2)), key
-        assert ex1 != ex2, 'Repeated example: ' + key
-        word_lines[key] = (category, line, ex1, ex2)
-        groups[category].append(line)
+    expected_links = Counter()
+    chapter_files = sorted(CHAPTERS.glob('*.md'))
+    entry = re.compile(r'^(\d+)\. \*\*(.*?)\*\*，读音：(.+?)，重音：(.+?)，中文：(.+?)；口语：① (.+) ② (.+)$')
+    for path in chapter_files:
+        heading, *lines = path.read_text(encoding='utf8').splitlines()
+        assert heading.startswith('# '), ('Missing chapter title', path.name)
+        category = heading[2:]
+        assert category in manifest['category_counts'], ('Unknown category', category)
+        assert category not in counts, ('Duplicate chapter', category)
+        filename = re.sub(r'[^\w\u4e00-\u9fff-]+', '-', category).strip('-') + '.md'
+        assert path.name == filename, ('Chapter filename does not match category', path.name, category)
+        assert path.stat().st_size < 500_000, ('Chapter too large for comfortable GitHub reading', path.name)
+        counts[category] = 0
+        for line in lines:
+            assert not line.startswith('|'), ('Table in chapter', path.name)
+            match = entry.fullmatch(line)
+            if not match:
+                assert not re.match(r'^\d+\. ', line), 'Malformed entry: ' + line[:100]
+                continue
+            number, word, pronunciation, stress, meaning, ex1, ex2 = match.groups()
+            counts[category] += 1
+            assert int(number) == counts[category], (category, number)
+            key = normalize(word)
+            assert key not in word_lines, 'Duplicate: ' + key
+            assert all(x.strip() and x.strip() != '—' for x in (pronunciation, stress, meaning, ex1, ex2)), key
+            assert ex1 != ex2, 'Repeated example: ' + key
+            word_lines[key] = (category, ex1, ex2)
+        leaf = category.rsplit(' / ', 1)[-1]
+        expected_links[leaf, str(counts[category]), f'分册/{filename}'] += 1
     assert len(word_lines) == manifest['entries']
-    assert dict((c, len(rows)) for c, rows in groups.items()) == manifest['category_counts']
-    assert not any(line.startswith('|') for line in master.splitlines()), 'Table in master'
+    assert counts == manifest['category_counts']
+    index = contents.read_text(encoding='utf8')
+    links = re.findall(r'\[([^\]\n]+)（(\d+)）\]\((分册/[^)]+)\)', index)
+    assert Counter(links) == expected_links, 'Index chapter links or counts differ from the chapters'
+    topics = {category.split(' / ', 1)[0] for category in counts}
+    headings = set(re.findall(r'^## (.+)$', index, re.M))
+    jump_links = Counter(re.findall(r'\[[^\]\n]+\]\(#([^)]+)\)', index))
+    assert topics <= headings and jump_links == Counter(topics), 'Index topic links differ from the topics'
 
     provenance = read_tsv('word-provenance.tsv')
     assert {r['word'] for r in provenance} == set(word_lines), 'Source/output coverage differs'
@@ -107,7 +125,7 @@ def main():
     for row in examples:
         index = int(row['example'])
         assert index in (1, 2)
-        rendered = word_lines[row['word']][index + 1]
+        rendered = word_lines[row['word']][index]
         if row['source'] == 'Tatoeba':
             assert row['sentence_id'] and row['author']
             assert row['license'] in ('CC0-1.0', 'CC-BY-2.0-FR')
@@ -115,17 +133,6 @@ def main():
             rendered = re.sub(r'^\[(.*)\]\(https://tatoeba.org/en/sentences/show/\d+\)$', r'\1', rendered)
         rendered = re.sub(r'\\([*_`\\\[\]])', r'\1', html.unescape(rendered))
         assert rendered == row['sentence'], ('Example differs from attribution', row['word'], index)
-    chapter_files = set()
-    for category, rows in groups.items():
-        filename = re.sub(r'[^\w\u4e00-\u9fff-]+', '-', category).strip('-') + '.md'
-        path = CHAPTERS / filename
-        assert path.is_file(), filename
-        chapter_rows = [line for line in path.read_text(encoding='utf8').splitlines() if re.match(r'^\d+\. \*\*', line)]
-        assert rows == chapter_rows, 'Chapter differs from master: ' + category
-        assert path.stat().st_size < 500_000, 'Chapter too large for comfortable GitHub reading'
-        chapter_files.add(filename)
-    existing_chapters = {p.name for p in CHAPTERS.glob('*.md')}
-    assert existing_chapters == chapter_files, 'Stale chapter copies'
     assert not any('专名-人名-' in p.name for p in LIBRARY.rglob('*')), 'Removed name chapter remains'
     for path in [ROOT / 'README.md', *LIBRARY.rglob('*.md')]:
         for link in re.findall(r'(?<!\\)\]\(([^)]+)\)', path.read_text(encoding='utf8')):
@@ -133,8 +140,8 @@ def main():
                 target = path.parent / unquote(link.split('#')[0])
                 assert target.exists() or target.resolve() == (DATA / 'validation.json').resolve(), (path.name, link)
     result = {'passed': True, 'source_documents': manifest['source_documents'], 'source_rows_scanned': scanned_rows,
-              'entries': len(word_lines), 'categories': len(groups), 'examples': len(examples),
-              'chapter_copies': len(chapter_files), 'all_original_files_unchanged': len(manifest['original_files']),
+              'entries': len(word_lines), 'categories': len(counts), 'examples': len(examples),
+              'chapter_files': len(chapter_files), 'all_original_files_unchanged': len(manifest['original_files']),
               'removed_person_name_entries': manifest['user_excluded_person_name_entries'],
               'explicitly_excluded_name_source_rows': sum(len(rows) for rows in manifest['user_excluded_source_rows'].values()),
               'contents': '分类词库/README.md',

@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 LIBRARY = ROOT / '分类词库'
 DATA = LIBRARY / '资料'
 CHAPTERS = LIBRARY / '分册'
+MAX_ENTRIES_PER_CHAPTER = 100
 EXCLUDED_CATEGORIES = {
     '专名 / 人名 / 历史文化与公众人物',
     '专名 / 人名 / 女性名字',
@@ -31,6 +32,9 @@ def read_tsv(name):
     with (DATA / name).open(encoding='utf8', newline='') as stream:
         return list(csv.DictReader(stream, delimiter='\t'))
 
+def chapter_filename(category):
+    return re.sub(r'[^\w\u4e00-\u9fff-]+', '-', category).strip('-') + '.md'
+
 def main():
     manifest = json.loads((DATA / 'manifest.json').read_text(encoding='utf8'))
     assert LIBRARY.is_dir() and CHAPTERS.is_dir() and DATA.is_dir()
@@ -42,16 +46,31 @@ def main():
     counts = {}
     word_lines = {}
     expected_links = Counter()
+    index_pages = manifest['chapter_index_pages']
+    seen_index_pages = set()
+    assert not index_pages.keys() & manifest['category_counts'].keys()
     chapter_files = sorted(CHAPTERS.glob('*.md'))
     entry = re.compile(r'^(\d+)\. \*\*(.*?)\*\*，读音：(.+?)，重音：(.+?)，中文：(.+?)；口语：① (.+) ② (.+)$')
     for path in chapter_files:
         heading, *lines = path.read_text(encoding='utf8').splitlines()
         assert heading.startswith('# '), ('Missing chapter title', path.name)
         category = heading[2:]
+        assert path.name == chapter_filename(category), ('Chapter filename does not match category', path.name, category)
+        if category in index_pages:
+            destinations = index_pages[category]
+            assert destinations and destinations.keys() <= manifest['category_counts'].keys()
+            assert all(0 < total <= manifest['category_counts'][name] for name, total in destinations.items())
+            expected_destinations = {
+                f'- [{name}（{total}）]({chapter_filename(name)})'
+                for name, total in destinations.items()
+            }
+            redirect_lines = [line for line in lines if line.startswith('- ')]
+            assert Counter(redirect_lines) == Counter(expected_destinations), ('Invalid old chapter index', path.name)
+            assert not any(re.match(r'^\d+\. ', line) for line in lines), ('Old chapter still has entries', path.name)
+            seen_index_pages.add(category)
+            continue
         assert category in manifest['category_counts'], ('Unknown category', category)
         assert category not in counts, ('Duplicate chapter', category)
-        filename = re.sub(r'[^\w\u4e00-\u9fff-]+', '-', category).strip('-') + '.md'
-        assert path.name == filename, ('Chapter filename does not match category', path.name, category)
         assert path.stat().st_size < 500_000, ('Chapter too large for comfortable GitHub reading', path.name)
         counts[category] = 0
         for line in lines:
@@ -69,9 +88,11 @@ def main():
             assert ex1 != ex2, 'Repeated example: ' + key
             word_lines[key] = (category, ex1, ex2)
         leaf = category.rsplit(' / ', 1)[-1]
-        expected_links[leaf, str(counts[category]), f'分册/{filename}'] += 1
+        assert 0 < counts[category] <= MAX_ENTRIES_PER_CHAPTER, ('Chapter exceeds entry limit or is empty', category)
+        expected_links[leaf, str(counts[category]), f'分册/{path.name}'] += 1
     assert len(word_lines) == manifest['entries']
     assert counts == manifest['category_counts']
+    assert seen_index_pages == index_pages.keys(), 'Missing old chapter indexes'
     index = contents.read_text(encoding='utf8')
     links = re.findall(r'\[([^\]\n]+)（(\d+)）\]\((分册/[^)]+)\)', index)
     assert Counter(links) == expected_links, 'Index chapter links or counts differ from the chapters'
@@ -141,11 +162,13 @@ def main():
                 assert target.exists() or target.resolve() == (DATA / 'validation.json').resolve(), (path.name, link)
     result = {'passed': True, 'source_documents': manifest['source_documents'], 'source_rows_scanned': scanned_rows,
               'entries': len(word_lines), 'categories': len(counts), 'examples': len(examples),
-              'chapter_files': len(chapter_files), 'all_original_files_unchanged': len(manifest['original_files']),
+              'chapter_files': len(counts), 'max_entries_per_chapter': max(counts.values()),
+              'chapter_index_pages': len(seen_index_pages), 'all_original_files_unchanged': len(manifest['original_files']),
               'removed_person_name_entries': manifest['user_excluded_person_name_entries'],
               'explicitly_excluded_name_source_rows': sum(len(rows) for rows in manifest['user_excluded_source_rows'].values()),
               'contents': '分类词库/README.md',
-              'unresolved_original_labels': manifest['unresolved_original_labels']}
+              'unresolved_original_labels': manifest['unresolved_original_labels'],
+              'uncertain_context_entries': manifest['uncertain_context_entries']}
     (DATA / 'validation.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
     print(json.dumps(result, ensure_ascii=False))
 

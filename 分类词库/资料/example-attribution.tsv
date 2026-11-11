@@ -4125,8 +4125,8 @@ whiskey	1	He ordered a whiskey on the rocks.	authored	-	-	-	-
 whiskey	2	Would you like a little water in your whiskey?	authored	-	-	-	-
 cocktails	1	Let's get cocktails after work.	authored	-	-	-	-
 cocktails	2	Do you serve cocktails here?	authored	-	-	-	-
-flores	1	Do you have any flores?	authored: food conversation	-	-	-	-
-flores	2	I'd like to try the flores.	authored: food conversation	-	-	-	-
+flores	1	What's that layer on top of the sherry? Is it flor?	authored	-	-	-	-
+flores	2	The guide said flor gives the sherry some of its flavor.	authored	-	-	-	-
 brewers	1	The brewers are trying a new recipe.	authored	-	-	-	-
 brewers	2	We met the brewers at the festival.	authored	-	-	-	-
 cabernet	1	I'll have a glass of Cabernet, please.	authored	-	-	-	-
@@ -4689,8 +4689,8 @@ timeshare	1	That sounds pretty timeshare to me.	authored: adjective conversation
 timeshare	2	I found the whole thing rather timeshare.	authored: adjective conversation	-	-	-	-
 condominium	1	Did you know that he bought a condominium?	Tatoeba	460926	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/460926
 condominium	2	I'm considering buying a condominium.	Tatoeba	4664034	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/4664034
-quinta	1	Where did you put the quinta?	authored: home conversation	-	-	-	-
-quinta	2	We need to replace the quinta.	authored: home conversation	-	-	-	-
+quinta	1	We're staying at a quinta in the countryside.	authored	-	-	-	-
+quinta	2	Is the quinta close enough to walk into town?	authored	-	-	-	-
 chimney	1	We found a bird's nest in our chimney.	Tatoeba	7532567	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/7532567
 chimney	2	I saw smoke coming out of Tom's chimney.	Tatoeba	9696456	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/9696456
 fireplaces	1	The common rooms were initially designed with fireplaces, however are no longer in used.	Tatoeba	11127245	CM	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/11127245
@@ -8507,8 +8507,8 @@ crypt	1	You should go back to the crypt.	Tatoeba	11503251	Amastan	CC-BY-2.0-FR	h
 crypt	2	Tom's body lies in the crypt below.	Tatoeba	10352283	shekitten	CC0-1.0	https://tatoeba.org/en/sentences/show/10352283
 charlottesville	1	We're planning a trip to Charlottesville.	authored: place context	-	-	-	-
 charlottesville	2	Have you ever been to Charlottesville?	authored: place context	-	-	-	-
-phillies	1	We're planning a trip to Phillies.	authored: place context	-	-	-	-
-phillies	2	Have you ever been to Phillies?	authored: place context	-	-	-	-
+phillies	1	Are you going to the Phillies game tonight?	authored	-	-	-	-
+phillies	2	Did you catch the Phillies game last night?	authored	-	-	-	-
 geophysical	1	They're doing a geophysical survey of the site.	authored	-	-	-	-
 geophysical	2	She works for a geophysical research team.	authored	-	-	-	-
 terre	1	"I keep seeing ""TERRE"" in this document."	authored: abbreviation context	-	-	-	-
@@ -10241,8 +10241,8 @@ exe	1	"I keep seeing ""EXE"" in this document."	authored: abbreviation context	-
 exe	2	"Can you explain what ""EXE"" means here?"	authored: abbreviation context	-	-	-	-
 scheduler	1	We covered scheduler in class today.	authored: study conversation	-	-	-	-
 scheduler	2	I found a useful video about scheduler.	authored: study conversation	-	-	-	-
-routers	1	We're looking for routers.	authored: work conversation	-	-	-	-
-routers	2	I need to talk to routers about this.	authored: work conversation	-	-	-	-
+routers	1	Do we need two routers for the house?	authored	-	-	-	-
+routers	2	Both routers need a restart.	authored	-	-	-	-
 webcast	1	Will there be a webcast of the meeting?	authored	-	-	-	-
 webcast	2	I watched the webcast on my phone.	authored	-	-	-	-
 portals	1	These two portals are connected via a wormhole.	Tatoeba	14038210	jan_OkulaJu	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/14038210
@@ -12601,8 +12601,8 @@ sketches	1	I showed Tom the sketches I'd made.	Tatoeba	8865626	CK	CC-BY-2.0-FR	h
 sketches	2	Did you know that Tom sketches?	Tatoeba	12323861	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12323861
 painters	1	I'm not happy with how the painters painted my office.	Tatoeba	6526453	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/6526453
 painters	2	We were painters and we painted beautiful pictures.	Tatoeba	10967171	Michaelus432	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10967171
-brit	1	Can we talk about the brit for a minute?	authored: topic conversation	-	-	-	-
-brit	2	I still have a question about the brit.	authored: topic conversation	-	-	-	-
+brit	1	My neighbor's a Brit.	authored	-	-	-	-
+brit	2	I met a Brit on the train to Paris.	authored	-	-	-	-
 creepy	1	I don't know, it seems a little creepy.	Tatoeba	8667520	ajje	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/8667520
 creepy	2	I can't tell you how creepy this makes me feel.	Tatoeba	1955007	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/1955007
 vivo	1	Can you play that part a little more lively?	authored: natural alternative	-	-	-	-
@@ -14081,8 +14081,8 @@ sar	1	César won the city's Rubik's Cube tournament last year.	Tatoeba	8169647	l
 sar	2	Can we talk about the sar for a minute?	authored: topic conversation	-	-	-	-
 shaking	1	Did you notice how Tom's right hand was shaking?	Tatoeba	9726732	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/9726732
 shaking	2	I can't stop shaking my leg.	Tatoeba	2665176	WestofEden	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/2665176
-brewing	1	I can feel trouble brewing ahead of us.	Tatoeba	12624682	LoverofEnglish	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12624682
-brewing	2	Empty the coffee grounds after you're done brewing.	Tatoeba	9942142	ddnktr	CC0-1.0	https://tatoeba.org/en/sentences/show/9942142
+brewing	1	Are they brewing beer here today?	authored	-	-	-	-
+brewing	2	My brother just started brewing his own beer.	authored	-	-	-	-
 confessions	1	Why do people make false confessions?	Tatoeba	13991360	rul	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/13991360
 confessions	2	Tom and Mary shouldn't have signed confessions.	Tatoeba	5786742	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/5786742
 lowered	1	How can the burden of debt be lowered?	Tatoeba	10840859	sundown	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10840859
@@ -20893,8 +20893,8 @@ ies	1	We covered ies in class today.	authored: study conversation	-	-	-	-
 ies	2	I found a useful video about ies.	authored: study conversation	-	-	-	-
 bentley	1	My neighbor drives a Bentley.	authored: car context	-	-	-	-
 bentley	2	Have you ever driven a Bentley?	authored: car context	-	-	-	-
-frances	1	We're planning a trip to Frances.	authored: place context	-	-	-	-
-frances	2	Have you ever been to Frances?	authored: place context	-	-	-	-
+frances	1	Is that Frances with an e?	authored	-	-	-	-
+frances	2	The note says Frances, but I don't know who that refers to.	authored	-	-	-	-
 nyse	1	We need to talk about nyse before we decide.	authored: work conversation	-	-	-	-
 nyse	2	Could you explain how nyse works?	authored: work conversation	-	-	-	-
 gia	1	I saw a report from GIA.	authored: organization context	-	-	-	-
@@ -20997,8 +20997,8 @@ everest	1	Can we talk about the everest for a minute?	authored: topic conversati
 everest	2	I still have a question about the everest.	authored: topic conversation	-	-	-	-
 ares	1	Can we talk about the ares for a minute?	authored: topic conversation	-	-	-	-
 ares	2	I still have a question about the ares.	authored: topic conversation	-	-	-	-
-gus	1	We're planning a trip to Gus.	authored: place context	-	-	-	-
-gus	2	Have you ever been to Gus?	authored: place context	-	-	-	-
+gus	1	Is Gus short for another name here?	authored	-	-	-	-
+gus	2	The label says Gus. Do you know who that is?	authored	-	-	-	-
 arp	1	Does this device support ARP?	authored: technology conversation	-	-	-	-
 arp	2	I can't get ARP to work on this device.	authored: technology conversation	-	-	-	-
 huron	1	Can we talk about the huron for a minute?	authored: topic conversation	-	-	-	-
@@ -21027,20 +21027,20 @@ casper	1	We're planning a trip to Casper.	authored: place context	-	-	-	-
 casper	2	Have you ever been to Casper?	authored: place context	-	-	-	-
 ict	1	I saw a report from ICT.	authored: organization context	-	-	-	-
 ict	2	Have you checked the ICT website?	authored: organization context	-	-	-	-
-isdn	1	We're planning a trip to Isdn.	authored: place context	-	-	-	-
-isdn	2	Have you ever been to Isdn?	authored: place context	-	-	-	-
+isdn	1	Does this office still use ISDN?	authored	-	-	-	-
+isdn	2	We switched from ISDN to a faster connection years ago.	authored	-	-	-	-
 tacoma	1	We're planning a trip to Tacoma.	authored: place context	-	-	-	-
 tacoma	2	Have you ever been to Tacoma?	authored: place context	-	-	-	-
 sonoma	1	We're planning a trip to Sonoma.	authored: place context	-	-	-	-
 sonoma	2	Have you ever been to Sonoma?	authored: place context	-	-	-	-
 wmv	1	I saw a report from WMV.	authored: organization context	-	-	-	-
 wmv	2	Have you checked the WMV website?	authored: organization context	-	-	-	-
-nhs	1	We're planning a trip to Nhs.	authored: place context	-	-	-	-
-nhs	2	Have you ever been to Nhs?	authored: place context	-	-	-	-
+nhs	1	Is this covered by the NHS?	authored	-	-	-	-
+nhs	2	She works as a nurse for the NHS.	authored	-	-	-	-
 pokemon	1	Can we talk about the pokemon for a minute?	authored: topic conversation	-	-	-	-
 pokemon	2	I still have a question about the pokemon.	authored: topic conversation	-	-	-	-
-cts	1	We're planning a trip to Cts.	authored: place context	-	-	-	-
-cts	2	Have you ever been to Cts?	authored: place context	-	-	-	-
+cts	1	Did the doctor say CT or MRI?	authored	-	-	-	-
+cts	2	I have a CT scan tomorrow morning.	authored	-	-	-	-
 tls	1	"I keep seeing ""TLS"" in this document."	authored: abbreviation context	-	-	-	-
 tls	2	"Can you explain what ""TLS"" means here?"	authored: abbreviation context	-	-	-	-
 geneva	1	We're planning a trip to Geneva.	authored: place context	-	-	-	-
@@ -21159,8 +21159,8 @@ hyundai	1	My neighbor drives a Hyundai.	authored: car context	-	-	-	-
 hyundai	2	Have you ever driven a Hyundai?	authored: car context	-	-	-	-
 andorra	1	We're planning a trip to Andorra.	authored: place context	-	-	-	-
 andorra	2	Have you ever been to Andorra?	authored: place context	-	-	-	-
-jerseys	1	We're planning a trip to Jerseys.	authored: place context	-	-	-	-
-jerseys	2	Have you ever been to Jerseys?	authored: place context	-	-	-	-
+jerseys	1	The team got new jerseys this year.	authored	-	-	-	-
+jerseys	2	We wore matching jerseys to the game.	authored	-	-	-	-
 kosovo	1	We're planning a trip to Kosovo.	authored: place context	-	-	-	-
 kosovo	2	Have you ever been to Kosovo?	authored: place context	-	-	-	-
 fifa	1	I saw a report from FIFA.	authored: organization context	-	-	-	-
@@ -21227,8 +21227,8 @@ montreal	1	We're planning a trip to Montreal.	authored: place context	-	-	-	-
 montreal	2	Have you ever been to Montreal?	authored: place context	-	-	-	-
 minneapolis	1	Minneapolis police officer Derek Chauvin killed George Floyd.	Tatoeba	8829533	Amastan	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/8829533
 minneapolis	2	Minneapolis is highly Muslim.	Tatoeba	11899307	Amastan	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/11899307
-bikini	1	We're planning a trip to Bikini.	authored: place context	-	-	-	-
-bikini	2	Have you ever been to Bikini?	authored: place context	-	-	-	-
+bikini	1	I packed a bikini for the beach.	authored	-	-	-	-
+bikini	2	Does this bikini come in blue?	authored	-	-	-	-
 memphis	1	We're planning a trip to Memphis.	authored: place context	-	-	-	-
 memphis	2	Have you ever been to Memphis?	authored: place context	-	-	-	-
 peru	1	We're planning a trip to Peru.	authored: place context	-	-	-	-
@@ -21297,8 +21297,8 @@ kingston	1	We're planning a trip to Kingston.	authored: place context	-	-	-	-
 kingston	2	Have you ever been to Kingston?	authored: place context	-	-	-	-
 luxembourg	1	We're planning a trip to Luxembourg.	authored: place context	-	-	-	-
 luxembourg	2	Have you ever been to Luxembourg?	authored: place context	-	-	-	-
-midi	1	We're planning a trip to Midi.	authored: place context	-	-	-	-
-midi	2	Have you ever been to Midi?	authored: place context	-	-	-	-
+midi	1	Can I connect this MIDI keyboard to my laptop?	authored	-	-	-	-
+midi	2	Could you send me the MIDI file?	authored	-	-	-	-
 queensland	1	We need to talk about queensland before we decide.	authored: work conversation	-	-	-	-
 queensland	2	Could you explain how queensland works?	authored: work conversation	-	-	-	-
 leeds	1	We're planning a trip to Leeds.	authored: place context	-	-	-	-
@@ -21323,8 +21323,8 @@ congo	1	We're planning a trip to Congo.	authored: place context	-	-	-	-
 congo	2	Have you ever been to Congo?	authored: place context	-	-	-	-
 botswana	1	We're planning a trip to Botswana.	authored: place context	-	-	-	-
 botswana	2	Have you ever been to Botswana?	authored: place context	-	-	-	-
-verizon	1	We're planning a trip to Verizon.	authored: place context	-	-	-	-
-verizon	2	Have you ever been to Verizon?	authored: place context	-	-	-	-
+verizon	1	I switched to Verizon last month.	authored	-	-	-	-
+verizon	2	Do you get a Verizon signal out here?	authored	-	-	-	-
 newcastle	1	We're planning a trip to Newcastle.	authored: place context	-	-	-	-
 newcastle	2	Have you ever been to Newcastle?	authored: place context	-	-	-	-
 honolulu	1	We're planning a trip to Honolulu.	authored: place context	-	-	-	-
@@ -21807,8 +21807,8 @@ hobart	1	We're planning a trip to Hobart.	authored: place context	-	-	-	-
 hobart	2	Have you ever been to Hobart?	authored: place context	-	-	-	-
 midland	1	We're planning a trip to Midland.	authored: place context	-	-	-	-
 midland	2	Have you ever been to Midland?	authored: place context	-	-	-	-
-bulls	1	We're planning a trip to Bulls.	authored: place context	-	-	-	-
-bulls	2	Have you ever been to Bulls?	authored: place context	-	-	-	-
+bulls	1	The Bulls are playing at home tonight.	authored	-	-	-	-
+bulls	2	Do you want to watch the Bulls game with us?	authored	-	-	-	-
 kiribati	1	We're planning a trip to Kiribati.	authored: place context	-	-	-	-
 kiribati	2	Have you ever been to Kiribati?	authored: place context	-	-	-	-
 nauru	1	We're planning a trip to Nauru.	authored: place context	-	-	-	-
@@ -21951,8 +21951,8 @@ duluth	1	We're planning a trip to Duluth.	authored: place context	-	-	-	-
 duluth	2	Have you ever been to Duluth?	authored: place context	-	-	-	-
 pensacola	1	We're planning a trip to Pensacola.	authored: place context	-	-	-	-
 pensacola	2	Have you ever been to Pensacola?	authored: place context	-	-	-	-
-tyres	1	We're planning a trip to Tyres.	authored: place context	-	-	-	-
-tyres	2	Have you ever been to Tyres?	authored: place context	-	-	-	-
+tyres	1	The car needs new tyres before winter.	authored	-	-	-	-
+tyres	2	Are these tyres still safe to drive on?	authored	-	-	-	-
 trenton	1	We're planning a trip to Trenton.	authored: place context	-	-	-	-
 trenton	2	Have you ever been to Trenton?	authored: place context	-	-	-	-
 nunavut	1	We're planning a trip to Nunavut.	authored: place context	-	-	-	-
@@ -21981,8 +21981,8 @@ digi	1	Have you tried Digi before?	authored: product context	-	-	-	-
 digi	2	I'm looking for information about Digi.	authored: product context	-	-	-	-
 crete	1	We're planning a trip to Crete.	authored: place context	-	-	-	-
 crete	2	Have you ever been to Crete?	authored: place context	-	-	-	-
-bologna	1	We're planning a trip to Bologna.	authored: place context	-	-	-	-
-bologna	2	Have you ever been to Bologna?	authored: place context	-	-	-	-
+bologna	1	Want a bologna sandwich?	authored	-	-	-	-
+bologna	2	I picked up some sliced bologna at the deli.	authored	-	-	-	-
 tivoli	1	We're planning a trip to Tivoli.	authored: place context	-	-	-	-
 tivoli	2	Have you ever been to Tivoli?	authored: place context	-	-	-	-
 kobe	1	We're planning a trip to Kobe.	authored: place context	-	-	-	-
@@ -22093,8 +22093,8 @@ pepsi	1	Have you tried Pepsi before?	authored: product context	-	-	-	-
 pepsi	2	I'm looking for information about Pepsi.	authored: product context	-	-	-	-
 medford	1	We're planning a trip to Medford.	authored: place context	-	-	-	-
 medford	2	Have you ever been to Medford?	authored: place context	-	-	-	-
-tyre	1	We're planning a trip to Tyre.	authored: place context	-	-	-	-
-tyre	2	Have you ever been to Tyre?	authored: place context	-	-	-	-
+tyre	1	I think we've got a flat tyre.	authored	-	-	-	-
+tyre	2	Can you check the tyre pressure?	authored	-	-	-	-
 ulster	1	We're planning a trip to Ulster.	authored: place context	-	-	-	-
 ulster	2	Have you ever been to Ulster?	authored: place context	-	-	-	-
 patagonia	1	We're planning a trip to Patagonia.	authored: place context	-	-	-	-
@@ -24702,7 +24702,7 @@ pak	2	Pak choi is a vegetable used in Chinese cooking.	Tatoeba	12349613	sundown	
 keynote	1	Tom Jackson will be the conference's keynote speaker.	Tatoeba	9859639	shekitten	CC0-1.0	https://tatoeba.org/en/sentences/show/9859639
 keynote	2	Airtel Bangladesh CIO Lutfar Rahman read the keynote at the workshop.	Tatoeba	11468039	robingaspi	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/11468039
 didnt	1	He didnt get the job.	Tatoeba	12727505	Ayoubbenaida	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12727505
-didnt	2	Can we talk about the didnt for a minute?	authored: topic conversation	-	-	-	-
+didnt	2	I didn't see your message until this morning.	authored	-	-	-	-
 residency	1	I don't have permanent residency.	Tatoeba	13136754	terrywallwork	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/13136754
 residency	2	What's the difference between permanent residency status and naturalization?	Tatoeba	12631886	urro	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12631886
 niche	1	He's trying to find his niche.	Tatoeba	7389301	CH	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/7389301
@@ -25251,8 +25251,8 @@ dependencies	1	Can we talk about the dependencies for a minute?	authored: topic 
 dependencies	2	I still have a question about the dependencies.	authored: topic conversation	-	-	-	-
 accomodation	1	Have you booked your accommodation yet?	authored: natural alternative	-	-	-	-
 accomodation	2	We're looking for affordable accommodation near the station.	authored: natural alternative	-	-	-	-
-mcafee	1	We're planning a trip to Mcafee.	authored: place context	-	-	-	-
-mcafee	2	Have you ever been to Mcafee?	authored: place context	-	-	-	-
+mcafee	1	My laptop came with McAfee installed.	authored	-	-	-	-
+mcafee	2	Did you renew your McAfee subscription?	authored	-	-	-	-
 competitiveness	1	How is Algeria evolving in the world competitiveness ranking?	Tatoeba	9472919	Amastan	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/9472919
 competitiveness	2	I love the competitiveness of it.	Tatoeba	5726393	CM	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/5726393
 melt	1	Why did you melt that bar of soap?	Tatoeba	10744346	megamanenm	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10744346
@@ -25352,7 +25352,7 @@ dataset	2	Just like the dataset, the Clip Graveyard is available for download.	T
 monogram	1	She embroidered her monogram onto the handkerchief.	Tatoeba	11741932	Anxxos	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/11741932
 monogram	2	The towels came with a custom monogram.	Tatoeba	13178601	rul	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/13178601
 doesnt	1	He is pretending that he doesnt know us whats up with him?	Tatoeba	12587323	Massin04	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12587323
-doesnt	2	Can we talk about the doesnt for a minute?	authored: topic conversation	-	-	-	-
+doesnt	2	She doesn't work on Fridays.	authored	-	-	-	-
 cnc	1	"I keep seeing ""CNC"" in this document."	authored: abbreviation context	-	-	-	-
 cnc	2	"Can you explain what ""CNC"" means here?"	authored: abbreviation context	-	-	-	-
 refrigeration	1	Tom doesn't believe in refrigeration.	Tatoeba	7370146	Eccles17	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/7370146
@@ -25847,8 +25847,8 @@ misconduct	1	I feel so awfully terrible about my misconduct.	Tatoeba	12615043	Lo
 misconduct	2	Jim got dismissed for his misconduct in office.	Tatoeba	53258	CP	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/53258
 siege	1	We are under siege.	Tatoeba	5964365	mailohilohi	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/5964365
 siege	2	Verdun had withstood a siege of ten weeks.	Tatoeba	2413580	Haruhi_Gafitas	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/2413580
-dimm	1	Can we talk about the dimm for a minute?	authored: topic conversation	-	-	-	-
-dimm	2	I still have a question about the dimm.	authored: topic conversation	-	-	-	-
+dimm	1	Do I have an open DIMM slot?	authored	-	-	-	-
+dimm	2	This board takes two DIMMs.	authored	-	-	-	-
 disadvantage	1	We can change our disadvantage to our advantage.	Tatoeba	6935372	maaster	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/6935372
 disadvantage	2	You have me at a disadvantage, Tom.	Tatoeba	3724847	CM	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/3724847
 typedef	1	Can we talk about the typedef for a minute?	authored: topic conversation	-	-	-	-
@@ -28385,8 +28385,8 @@ x-ray machine	1	Is the X-ray machine working today?	authored	-	-	-	-
 x-ray machine	2	The technician asked me to stand by the X-ray machine.	authored	-	-	-	-
 magnetic resonance imaging machine	1	Is that the magnetic resonance imaging machine?	authored	-	-	-	-
 magnetic resonance imaging machine	2	The magnetic resonance imaging machine was louder than I expected.	authored	-	-	-	-
-ct	1	We're planning a trip to Ct.	authored: place context	-	-	-	-
-ct	2	Have you ever been to Ct?	authored: place context	-	-	-	-
+ct	1	The doctor wants me to get a CT scan.	authored	-	-	-	-
+ct	2	When will my CT results come back?	authored	-	-	-	-
 computed tomography scanner	1	The computed tomography scanner is down the hall.	authored	-	-	-	-
 computed tomography scanner	2	Have you ever been in a computed tomography scanner?	authored	-	-	-	-
 defibrillator	1	Where can you find a defibrillator?	Tatoeba	2977604	\N	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/2977604

@@ -102,7 +102,12 @@ def main():
     assert topics <= headings and jump_links == Counter(topics), 'Index topic links differ from the topics'
 
     provenance = read_tsv('word-provenance.tsv')
-    assert {r['word'] for r in provenance} == set(word_lines), 'Source/output coverage differs'
+    supplemental = manifest.get('supplemental_words', [])
+    supplemental_keys = set(supplemental)
+    original_keys = {r['word'] for r in provenance}
+    assert len(supplemental_keys) == len(supplemental), 'Duplicate supplemental word'
+    assert not original_keys & supplemental_keys, 'Supplemental word is already in the original sources'
+    assert original_keys | supplemental_keys == word_lines.keys(), 'Source/output coverage differs'
     source_rows = defaultdict(set)
     for row in provenance:
         assert row['category'] == word_lines[row['word']][0]
@@ -146,6 +151,8 @@ def main():
     for row in examples:
         index = int(row['example'])
         assert index in (1, 2)
+        if row['word'] in supplemental_keys:
+            assert row['source'] == 'authored', ('Missing authored example', row['word'])
         rendered = word_lines[row['word']][index]
         if row['source'] == 'Tatoeba':
             assert row['sentence_id'] and row['author']
@@ -168,7 +175,8 @@ def main():
               'explicitly_excluded_name_source_rows': sum(len(rows) for rows in manifest['user_excluded_source_rows'].values()),
               'contents': '分类词库/README.md',
               'unresolved_original_labels': manifest['unresolved_original_labels'],
-              'uncertain_context_entries': manifest['uncertain_context_entries']}
+              'uncertain_context_entries': manifest['uncertain_context_entries'],
+              'supplemental_entries': len(supplemental_keys)}
     (DATA / 'validation.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
     print(json.dumps(result, ensure_ascii=False))
 

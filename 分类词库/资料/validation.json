@@ -2,9 +2,9 @@
   "passed": true,
   "source_documents": 37,
   "source_rows_scanned": 18351,
-  "entries": 15744,
+  "entries": 16105,
   "categories": 355,
-  "examples": 31488,
+  "examples": 32210,
   "chapter_files": 355,
   "max_entries_per_chapter": 100,
   "chapter_index_pages": 52,
@@ -13,5 +13,6 @@
   "explicitly_excluded_name_source_rows": 1190,
   "contents": "分类词库/README.md",
   "unresolved_original_labels": 97,
-  "uncertain_context_entries": 30
+  "uncertain_context_entries": 30,
+  "supplemental_entries": 361
 }

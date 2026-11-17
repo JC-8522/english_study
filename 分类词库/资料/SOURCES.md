@@ -8,6 +8,8 @@
 
 新增的进阶日常词汇按使用场景直接收入现有分册。新增词头记录在 [manifest.json](manifest.json) 的 `supplemental_words` 中，例句为新写。读音按美式标注。短语给出一种常见的重读方式，实际说话时重读可以随语境变化。
 
+常用词查漏参考 [SUBTLEX-US 美式影视字幕词频](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexus) 和 [New General Service List 1.2](https://www.newgeneralservicelist.com/new-general-service-list)。根据中级学习需求筛选，优先收录有实际使用场景、词库缺少的词头，如 `burglary`、`wheeze` 和 `snarky`。词频帮助发现缺口，释义和例句为自编。
+
 ## 例句
 
 优先选择较短的日常对话，并为原笔记短语、专业场景、专名和不合适的原句补写例句。原笔记里的非标准拼写、其他语言词形和不自然的组合仍可查到；条目注明更自然说法时，例句练习该自然说法，而不是重复错误。
@@ -32,6 +34,8 @@ Tatoeba 句子按 [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/
 雪利酒词条中的 `flor` 用法参考[赫雷斯产区委员会的陈年说明](https://www.sherry.wine/sherry-wine/production/ageing)。
 
 多义词保留一个主分册，优先选择和本条例句一致的词义。明确发现释义或例句错用时一并修正，例如把点啤酒时的 `beers` 和 `stout` 放在「啤酒与酿造」。无法可靠判定的词形和上下文放在「原始资料附录」。单个分册最多 100 条，原分册拆开后可通过旧地址查看对应的新分册。
+
+饮食按食材、菜式、饮料、烹饪和营养组织。例如，椰子按日常饮食用法归入水果，维生素归入营养，点餐用语归入餐厅点餐与用餐。其他主题也按实际用途拆开，例如「酒店房型与入住退房」和「行程与观光」，以及「信用贷款与债务」和「账户转账与账单」。目录保留被拆分或更名的分册地址。
 
 ## 校验
 

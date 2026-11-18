@@ -42,7 +42,7 @@ passage	2	Did you know there was a secret passage?	Tatoeba	5885803	Hybrid	CC-BY-
 apron	1	Do you wear an apron when you're cooking?	Tatoeba	10632199	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10632199
 apron	2	I am tied to my mother's apron strings.	Tatoeba	261688	\N	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/261688
 tidbits	1	The book contains tidbits of information about psychology.	Tatoeba	8545133	dresisto	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/8545133
-tidbits	2	Do you have any tidbits?	authored: food conversation	-	-	-	-
+tidbits	2	He shared a few tidbits about how they made the show.	authored	-	-	-	-
 pantomime	1	He acted out a pantomime at the party.	Tatoeba	292345	\N	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/292345
 pantomime	2	The pantomime is crowded with merry hearts.	Tatoeba	5685518	Hybrid	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/5685518
 in terms of	1	You can't judge happiness in terms of money.	Tatoeba	240837	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/240837
@@ -1545,8 +1545,8 @@ dots	1	"I keep seeing ""DOTS"" in this document."	authored: abbreviation context
 dots	2	"Can you explain what ""DOTS"" means here?"	authored: abbreviation context	-	-	-	-
 spots	1	Can you recommend any good hiking spots nearby?	Tatoeba	11881939	Amastan	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/11881939
 spots	2	I've always had an affinity for sunshine and warm spots.	Tatoeba	13248597	Nuel	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/13248597
-ppp	1	We need to talk about ppp before we decide.	authored: work conversation	-	-	-	-
-ppp	2	Could you explain how ppp works?	authored: work conversation	-	-	-	-
+ppp	1	Are those figures adjusted for PPP?	authored	-	-	-	-
+ppp	2	The report uses PPP to compare incomes across countries.	authored	-	-	-	-
 fingertips	1	We put the world at your fingertips.	Tatoeba	527263	darinmex	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/527263
 fingertips	2	We put a wealth of information at your fingertips.	Tatoeba	2112226	darinmex	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/2112226
 psychological	1	We live in a time of psychological warfare.	Tatoeba	12808639	Adelpa	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12808639
@@ -4048,7 +4048,7 @@ householder	2	Can we talk about the householder for a minute?	authored: topic co
 butter	1	I thought you'd want butter on your toast.	Tatoeba	1961841	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/1961841
 butter	2	I haven't eaten anything but bread and butter.	Tatoeba	4864277	Theocracy	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/4864277
 sup	1	When you sup with the Devil, use a long spoon.	Tatoeba	3708889	Ooneykcall	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/3708889
-sup	2	Do you have any sup?	authored: food conversation	-	-	-	-
+sup	2	My brother texted me, “Sup?”	authored	-	-	-	-
 nutrients	1	Carbohydrates are one of the five essential nutrients.	Tatoeba	11148461	mutskt	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/11148461
 nutrients	2	This root vegetable is high on nutrients.	Tatoeba	4311050	richke	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/4311050
 ripe	1	I'll leave the bananas alone until they're ripe.	Tatoeba	12589173	urro	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12589173
@@ -4071,8 +4071,8 @@ aroma	1	You can tell it's good just by the aroma.	Tatoeba	12018718	Winter	CC-BY-
 aroma	2	I love the aroma of freshly brewed coffee.	Tatoeba	1546540	Vy	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/1546540
 spirits	1	Do you sell spirits as well as wine?	authored	-	-	-	-
 spirits	2	I usually stick to beer rather than spirits.	authored	-	-	-	-
-pies	1	"I keep seeing ""PIES"" in this document."	authored: abbreviation context	-	-	-	-
-pies	2	"Can you explain what ""PIES"" means here?"	authored: abbreviation context	-	-	-	-
+pies	1	They sell little apple pies at the market.	authored	-	-	-	-
+pies	2	Can we bring two pies for dessert?	authored	-	-	-	-
 dense	1	You can't possibly be this dense.	Tatoeba	10350393	Ooneykcall	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10350393
 dense	2	You're really dense, aren't you?	Tatoeba	5729583	CM	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/5729583
 bitter	1	I can't stand arugula or any bitter greens.	Tatoeba	866498	papabear	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/866498
@@ -4317,7 +4317,7 @@ pork	1	I've never eaten pork and I never will.	Tatoeba	4498205	CK	CC-BY-2.0-FR	h
 pork	2	I don't think Tom and Mary eat pork.	Tatoeba	6518134	CT	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/6518134
 pasta	1	I don't like the way Tom cooks pasta.	Tatoeba	6705513	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/6705513
 pasta	2	I don't know how to cook anything besides pasta.	Tatoeba	10827821	megamanenm	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10827821
-hay	1	Can I take hay fever medicine if I'm breastfeeding?	Tatoeba	9805265	Igider	CC0-1.0	https://tatoeba.org/en/sentences/show/9805265
+hay	1	We bought some hay for the horses.	authored	-	-	-	-
 hay	2	I didn't know that you had hay fever.	Tatoeba	7517452	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/7517452
 cakes	1	I don't want to start giving him cakes.	Tatoeba	8669376	ajje	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/8669376
 cakes	2	I've loved French cakes since elementary school.	Tatoeba	267583	shekitten	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/267583
@@ -4381,10 +4381,10 @@ incense	1	I don't usually burn incense at home.	Tatoeba	2315338	CK	CC-BY-2.0-FR	
 incense	2	What kind of incense is this?	Tatoeba	12086370	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12086370
 dough	1	I put too much flour in the cookie dough.	Tatoeba	9158885	shekitten	CC0-1.0	https://tatoeba.org/en/sentences/show/9158885
 dough	2	I rolled the dough to make some cookies.	Tatoeba	681964	Source_VOA	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/681964
-grenadines	1	Do you have any grenadines?	authored: food conversation	-	-	-	-
-grenadines	2	I'd like to try the grenadines.	authored: food conversation	-	-	-	-
+grenadines	1	Have you ever been to the Grenadines?	authored	-	-	-	-
+grenadines	2	We're spending a few days in the Grenadines.	authored	-	-	-	-
 blanc	1	This cheese pairs well with sauvignon blanc.	Tatoeba	6596479	Eccles17	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/6596479
-blanc	2	Do you have any blanc?	authored: food conversation	-	-	-	-
+blanc	2	This menu has a Sauvignon Blanc by the glass.	authored	-	-	-	-
 sausage	1	I think that's a small piece of sausage.	Tatoeba	7933419	maaster	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/7933419
 sausage	2	Why is open source such a sausage fest?	Tatoeba	1685952	sam_m	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/1685952
 sandwiches	1	I'll make a couple of sandwiches for us.	Tatoeba	9460639	sundown	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/9460639
@@ -4445,8 +4445,8 @@ cracker	1	The cracker contains only a gram of fat.	Tatoeba	8860362	AlanF_US	CC-B
 cracker	2	Cracker Jacks used to have a toy.	Tatoeba	10727910	Eccles17	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10727910
 tuck	1	I tuck my children into bed every night.	Tatoeba	3617518	fleur74	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/3617518
 tuck	2	I don't think it's necessary to tuck my shirt into my jeans.	Tatoeba	10862732	Luornu	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10862732
-worcestershire	1	Do you have any worcestershire?	authored: food conversation	-	-	-	-
-worcestershire	2	I'd like to try the worcestershire.	authored: food conversation	-	-	-	-
+worcestershire	1	Do you have any Worcestershire sauce?	authored	-	-	-	-
+worcestershire	2	I add a splash of Worcestershire sauce to the marinade.	authored	-	-	-	-
 preserves	1	I want a jar of preserves.	Tatoeba	2744933	sharptoothed	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/2744933
 preserves	2	Amber preserves insects that get trapped in it.	Tatoeba	4090806	Lepotdeterre	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/4090806
 royale	1	Do you have any royale?	authored: food conversation	-	-	-	-
@@ -4920,7 +4920,7 @@ monument	2	Do you want to visit this monument?	Tatoeba	9930656	carlosalberto	CC-
 shortcut	1	I'll take a shortcut across the garden.	Tatoeba	278512	CM	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/278512
 shortcut	2	I knew a shortcut to Tom's house.	Tatoeba	2374747	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/2374747
 hospice	1	Cancer is the leading cause for hospice care.	Tatoeba	895420	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/895420
-hospice	2	Where did you put the hospice?	authored: home conversation	-	-	-	-
+hospice	2	My uncle started receiving hospice care at home last week.	authored	-	-	-	-
 monuments	1	I wrote a composition about the monuments in the forum.	Tatoeba	10841733	carlosalberto	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10841733
 monuments	2	St Peter's basilica is one of Italy's most famous monuments.	Tatoeba	7027901	Hybrid	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/7027901
 salon	1	I'm an apprentice at a hairdressing salon.	Tatoeba	12542799	rul	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12542799
@@ -5471,7 +5471,7 @@ cutlery	1	I don't have enough cutlery for all my guests.	Tatoeba	9010479	jaydenm
 cutlery	2	How much did you pay for your cutlery?	Tatoeba	12258335	Miktsoanit	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12258335
 bubbles	1	Why do champagne bubbles rise to the surface?	Tatoeba	10012703	carlosalberto	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10012703
 bubbles	2	Hydrogen peroxide bubbles when put on a wound.	Tatoeba	6143184	evan10593	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/6143184
-standby	1	Sami chose to wait in a standby list.	Tatoeba	7190290	OsoHombre	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/7190290
+standby	1	I'm on standby for the next flight.	authored	-	-	-	-
 standby	2	The fire department is on standby day and night.	Tatoeba	12170491	megamanenm	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/12170491
 motif	1	Tom painted the room in a jungle motif.	Tatoeba	3502852	DostKaplan	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/3502852
 motif	2	Birds are a common motif in Yiddish poetry and song.	Tatoeba	11351408	shekitten	CC0-1.0	https://tatoeba.org/en/sentences/show/11351408
@@ -15857,8 +15857,8 @@ ignoring	1	I don't know why Tom is ignoring me.	Tatoeba	6245300	CK	CC-BY-2.0-FR	
 ignoring	2	Do you think Tom was deliberately ignoring me?	Tatoeba	7112268	CM	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/7112268
 praying	1	We are the gods we've been praying to for help.	Tatoeba	11640656	shekitten	CC0-1.0	https://tatoeba.org/en/sentences/show/11640656
 praying	2	I've been praying for this day.	Tatoeba	2476838	arnxy20	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/2476838
-podcasting	1	Can we talk about the podcasting for a minute?	authored: topic conversation	-	-	-	-
-podcasting	2	I still have a question about the podcasting.	authored: topic conversation	-	-	-	-
+podcasting	1	How did you get into podcasting?	authored	-	-	-	-
+podcasting	2	She started podcasting with a friend last year.	authored	-	-	-	-
 directs	1	I like all films that Juzo Itami directs.	Tatoeba	256002	\N	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/256002
 directs	2	He directs the school choir.	Tatoeba	12777254	Igider	CC0-1.0	https://tatoeba.org/en/sentences/show/12777254
 filming	1	You didn't tell me you were filming.	Tatoeba	10158511	ddnktr	CC0-1.0	https://tatoeba.org/en/sentences/show/10158511
@@ -21089,8 +21089,8 @@ americas	1	We're planning a trip to Americas.	authored: place context	-	-	-	-
 americas	2	Have you ever been to Americas?	authored: place context	-	-	-	-
 guadeloupe	1	We're planning a trip to Guadeloupe.	authored: place context	-	-	-	-
 guadeloupe	2	Have you ever been to Guadeloupe?	authored: place context	-	-	-	-
-puma	1	Have you tried puma before?	authored: product context	-	-	-	-
-puma	2	I'm looking for information about puma.	authored: product context	-	-	-	-
+puma	1	I bought a pair of Puma sneakers last week.	authored	-	-	-	-
+puma	2	The trail sign said to watch out for pumas.	authored	-	-	-	-
 goa	1	We're planning a trip to Goa.	authored: place context	-	-	-	-
 goa	2	Have you ever been to Goa?	authored: place context	-	-	-	-
 montserrat	1	We're planning a trip to Montserrat.	authored: place context	-	-	-	-
@@ -26075,8 +26075,8 @@ fritz	1	The lambda sensor is on the fritz again.	Tatoeba	1084475	\N	CC-BY-2.0-FR
 fritz	2	My computer's on the fritz.	Tatoeba	13786674	rul	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/13786674
 dbz	1	Can we talk about the dbz for a minute?	authored: topic conversation	-	-	-	-
 dbz	2	I still have a question about the dbz.	authored: topic conversation	-	-	-	-
-macos	1	Have you tried Macos before?	authored: product context	-	-	-	-
-macos	2	I'm looking for information about Macos.	authored: product context	-	-	-	-
+macos	1	Does this app work on macOS?	authored	-	-	-	-
+macos	2	I updated macOS last night.	authored	-	-	-	-
 pornstars	1	Can we talk about the pornstars for a minute?	authored: topic conversation	-	-	-	-
 pornstars	2	I still have a question about the pornstars.	authored: topic conversation	-	-	-	-
 tem	1	I asked the doctor about tem.	authored: clinic conversation	-	-	-	-
@@ -26241,8 +26241,8 @@ mantle	1	Scientists believe that Ceres has a rocky core and an icy mantle.	Tatoe
 mantle	2	Magma from the mantle or lower crust rises through its crust towards the surface.	Tatoeba	11122114	CM	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/11122114
 gesture	1	I appreciate the gesture, but it's not enough.	Tatoeba	1933620	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/1933620
 gesture	2	We communicated with each other by gesture.	Tatoeba	23250	Swift	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/23250
-cpr	1	"I keep seeing ""CPR"" in this document."	authored: abbreviation context	-	-	-	-
-cpr	2	"Can you explain what ""CPR"" means here?"	authored: abbreviation context	-	-	-	-
+cpr	1	Do you know how to do CPR?	authored	-	-	-	-
+cpr	2	I signed up for a CPR class at work.	authored	-	-	-	-
 innings	1	Tom pitched six innings.	Tatoeba	4501402	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/4501402
 innings	2	Can we talk about the innings for a minute?	authored: topic conversation	-	-	-	-
 reorganization	1	The government carried out a reorganization of scientific research activities in the 1990s.	Tatoeba	5820018	Amastan	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/5820018
@@ -26521,8 +26521,8 @@ expresses	1	I admire a person who expresses a frank opinion.	Tatoeba	262189	CM	C
 expresses	2	I am not going to wait until Tom expresses himself.	Tatoeba	9051564	Ergulis	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/9051564
 carton	1	I need one carton of eggs, you see.	Tatoeba	10207535	terrywallwork	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/10207535
 carton	2	I bought a carton of milk from the supermarket.	Tatoeba	2764790	sundown	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/2764790
-hague	1	"The label says ""hague"", but I need the English version."	authored: foreign label context	-	-	-	-
-hague	2	"Could you translate ""hague"" into English for me?"	authored: foreign label context	-	-	-	-
+hague	1	Have you ever been to The Hague?	authored	-	-	-	-
+hague	2	We're taking the train to The Hague tomorrow.	authored	-	-	-	-
 licensure	1	Can we talk about the licensure for a minute?	authored: topic conversation	-	-	-	-
 licensure	2	I still have a question about the licensure.	authored: topic conversation	-	-	-	-
 roxy	1	"I keep seeing ""ROXY"" in this document."	authored: abbreviation context	-	-	-	-
@@ -26541,8 +26541,8 @@ emu	1	What's the difference between an emu and an ostrich?	Tatoeba	8418852	CK	CC
 emu	2	It takes over 40 minutes to boil an emu egg.	Tatoeba	8419035	CK	CC-BY-2.0-FR	https://tatoeba.org/en/sentences/show/8419035
 seite	1	"The label says ""seite"", but I need the English version."	authored: foreign label context	-	-	-	-
 seite	2	"Could you translate ""seite"" into English for me?"	authored: foreign label context	-	-	-	-
-mais	1	Can we talk about the mais for a minute?	authored: topic conversation	-	-	-	-
-mais	2	I still have a question about the mais.	authored: topic conversation	-	-	-	-
+mais	1	I keep hearing mais in this French show. What does it mean?	authored	-	-	-	-
+mais	2	The menu says maïs. Does that mean corn?	authored	-	-	-	-
 cognition	1	Can we talk about the cognition for a minute?	authored: topic conversation	-	-	-	-
 cognition	2	I still have a question about the cognition.	authored: topic conversation	-	-	-	-
 quickbooks	1	Have you tried Quickbooks before?	authored: product context	-	-	-	-
@@ -32209,3 +32209,325 @@ year-to-date	1	Where do I find my year-to-date earnings?	authored	-	-	-	-
 year-to-date	2	The report shows year-to-date sales.	authored	-	-	-	-
 yield to pedestrians	1	You have to yield to pedestrians in the crosswalk.	authored	-	-	-	-
 yield to pedestrians	2	Drivers don't always yield to pedestrians on this corner.	authored	-	-	-	-
+abrasion	1	The nurse cleaned the abrasion on my knee.	authored	-	-	-	-
+abrasion	2	It's just a small abrasion from the sidewalk.	authored	-	-	-	-
+acquaintance	1	She's an acquaintance from my old job.	authored	-	-	-	-
+acquaintance	2	I ran into an acquaintance at the library.	authored	-	-	-	-
+acquit	1	The jury acquitted him last week.	authored	-	-	-	-
+acquit	2	She was acquitted on both charges.	authored	-	-	-	-
+adept	1	She's adept at calming people down.	authored	-	-	-	-
+adept	2	He got pretty adept at fixing bikes.	authored	-	-	-	-
+alibi	1	Did he have an alibi for that night?	authored	-	-	-	-
+alibi	2	A friend was able to confirm her alibi.	authored	-	-	-	-
+all-you-can-eat	1	Is that sushi place all-you-can-eat?	authored	-	-	-	-
+all-you-can-eat	2	The brunch is all-you-can-eat on weekends.	authored	-	-	-	-
+anecdote	1	She opened with a funny anecdote about her first job.	authored	-	-	-	-
+anecdote	2	I have an anecdote about that, if you've got a minute.	authored	-	-	-	-
+applicant	1	We're still interviewing applicants.	authored	-	-	-	-
+applicant	2	They had more than a hundred applicants for that job.	authored	-	-	-	-
+approachable	1	My new manager is really approachable.	authored	-	-	-	-
+approachable	2	It's nice to have a teacher who's approachable.	authored	-	-	-	-
+aptitude	1	She's always had an aptitude for languages.	authored	-	-	-	-
+aptitude	2	He has an aptitude for working with numbers.	authored	-	-	-	-
+arson	1	Police are investigating the fire as possible arson.	authored	-	-	-	-
+arson	2	The news said someone was arrested for arson.	authored	-	-	-	-
+backlog	1	They're working through a backlog of applications.	authored	-	-	-	-
+backlog	2	There's a backlog, so it might take a few more days.	authored	-	-	-	-
+baffled	1	I'm baffled by what they told you.	authored	-	-	-	-
+baffled	2	She looked baffled when I asked about the bill.	authored	-	-	-	-
+banter	1	I like the banter between those two hosts.	authored	-	-	-	-
+banter	2	It was just friendly banter.	authored	-	-	-	-
+binding	1	Is this quote binding?	authored	-	-	-	-
+binding	2	I want to know whether that agreement is binding.	authored	-	-	-	-
+blackmail	1	That sounds like blackmail to me.	authored	-	-	-	-
+blackmail	2	He tried to blackmail her with those messages.	authored	-	-	-	-
+bleach	1	Do we have any bleach for the white towels?	authored	-	-	-	-
+bleach	2	I accidentally bleached a spot on my shirt.	authored	-	-	-	-
+blister	1	These shoes gave me a blister.	authored	-	-	-	-
+blister	2	I have a blister on my heel from the hike.	authored	-	-	-	-
+brake pad	1	The shop says I need new brake pads.	authored	-	-	-	-
+brake pad	2	Did they replace both front brake pads?	authored	-	-	-	-
+break-in	1	Our neighbor had a break-in last week.	authored	-	-	-	-
+break-in	2	Did the police take a report on the break-in?	authored	-	-	-	-
+bribery	1	The owner was investigated for bribery.	authored	-	-	-	-
+bribery	2	They were charged with bribery last week.	authored	-	-	-	-
+broil	1	Can you broil the top for a minute?	authored	-	-	-	-
+broil	2	I broiled the salmon instead of baking it.	authored	-	-	-	-
+bruise	1	I got a bruise from bumping into the counter.	authored	-	-	-	-
+bruise	2	I bruise easily, especially on my legs.	authored	-	-	-	-
+burglar	1	The police caught the burglar a few blocks away.	authored	-	-	-	-
+burglar	2	Our neighbor saw the burglar leave.	authored	-	-	-	-
+burglary	1	There was a burglary on our street last night.	authored	-	-	-	-
+burglary	2	The police are investigating a burglary at the store.	authored	-	-	-	-
+carjacking	1	Did you hear about the carjacking downtown?	authored	-	-	-	-
+carjacking	2	Police are looking for a witness to the carjacking.	authored	-	-	-	-
+carpool lane	1	Can we use the carpool lane with two people?	authored	-	-	-	-
+carpool lane	2	We got out of the carpool lane before our exit.	authored	-	-	-	-
+caulk	1	The caulk around the sink is coming loose.	authored	-	-	-	-
+caulk	2	We need to caulk the gap by the window.	authored	-	-	-	-
+cheesy	1	That ending was a little cheesy.	authored	-	-	-	-
+cheesy	2	I love a cheesy joke once in a while.	authored	-	-	-	-
+chuckle	1	She chuckled when she heard the story.	authored	-	-	-	-
+chuckle	2	That photo always gets a chuckle out of me.	authored	-	-	-	-
+clammy	1	My hands get clammy when I'm nervous.	authored	-	-	-	-
+clammy	2	Her forehead felt cold and clammy.	authored	-	-	-	-
+clearance	1	Is this coat on clearance?	authored	-	-	-	-
+clearance	2	I found those shoes in the clearance section.	authored	-	-	-	-
+co-signer	1	The lender said I might need a co-signer.	authored	-	-	-	-
+co-signer	2	Would you be comfortable being a co-signer?	authored	-	-	-	-
+colander	1	Can you grab the colander for the pasta?	authored	-	-	-	-
+colander	2	I left the colander by the sink.	authored	-	-	-	-
+concussion	1	They checked him for a concussion after the fall.	authored	-	-	-	-
+concussion	2	She missed a week of practice with a concussion.	authored	-	-	-	-
+congested	1	I'm so congested I can barely breathe through my nose.	authored	-	-	-	-
+congested	2	I still feel congested in the morning.	authored	-	-	-	-
+convict	1	The jury voted to convict him.	authored	-	-	-	-
+convict	2	They couldn't convict her without more evidence.	authored	-	-	-	-
+corny	1	My dad tells the corniest jokes.	authored	-	-	-	-
+corny	2	I know it sounds corny, but I really mean it.	authored	-	-	-	-
+counterfeit	1	I think this bag might be counterfeit.	authored	-	-	-	-
+counterfeit	2	They caught someone trying to use a counterfeit bill.	authored	-	-	-	-
+cranky	1	I get cranky when I'm hungry.	authored	-	-	-	-
+cranky	2	Everyone was cranky by the end of the drive.	authored	-	-	-	-
+credential	1	Do I need any special credentials for this role?	authored	-	-	-	-
+credential	2	They asked me to upload my teaching credential.	authored	-	-	-	-
+deadline extension	1	Can I request a deadline extension?	authored	-	-	-	-
+deadline extension	2	They gave us a one-week deadline extension.	authored	-	-	-	-
+deferment	1	Did they approve your loan deferment?	authored	-	-	-	-
+deferment	2	I called to ask about a deferment.	authored	-	-	-	-
+deflect	1	He tried to deflect the question with a joke.	authored	-	-	-	-
+deflect	2	She keeps deflecting whenever I bring up the bill.	authored	-	-	-	-
+defroster	1	Can you turn on the rear defroster?	authored	-	-	-	-
+defroster	2	My defroster takes a minute to clear the window.	authored	-	-	-	-
+dehydrated	1	I felt dehydrated by the end of the hike.	authored	-	-	-	-
+dehydrated	2	The nurse asked if I'd been feeling dehydrated.	authored	-	-	-	-
+delinquent	1	The notice says my account is delinquent.	authored	-	-	-	-
+delinquent	2	Did they mark the payment as delinquent?	authored	-	-	-	-
+deodorant	1	I forgot to pack deodorant.	authored	-	-	-	-
+deodorant	2	Is this your deodorant in the bathroom?	authored	-	-	-	-
+discrepancy	1	There's a discrepancy between the two bills.	authored	-	-	-	-
+discrepancy	2	Can you help me figure out this discrepancy?	authored	-	-	-	-
+disinfectant	1	I wiped the counter with disinfectant.	authored	-	-	-	-
+disinfectant	2	Where do you keep the disinfectant?	authored	-	-	-	-
+documentation	1	What documentation do I need to bring?	authored	-	-	-	-
+documentation	2	Do you have any documentation to back that up?	authored	-	-	-	-
+downplay	1	He tried to downplay the delay.	authored	-	-	-	-
+downplay	2	I don't want to downplay what happened to you.	authored	-	-	-	-
+drastic	1	I don't think we need to do anything that drastic.	authored	-	-	-	-
+drastic	2	There was a drastic change in traffic after the bridge reopened.	authored	-	-	-	-
+dubious	1	I'm dubious about that sales pitch.	authored	-	-	-	-
+dubious	2	That sounds like a dubious claim to me.	authored	-	-	-	-
+eligible	1	Am I eligible for the discount?	authored	-	-	-	-
+eligible	2	You'll need to check whether you're eligible first.	authored	-	-	-	-
+embezzlement	1	The bookkeeper was accused of embezzlement.	authored	-	-	-	-
+embezzlement	2	I read about the embezzlement in the local paper.	authored	-	-	-	-
+eyewitness	1	The police spoke to an eyewitness.	authored	-	-	-	-
+eyewitness	2	An eyewitness said the car was blue.	authored	-	-	-	-
+fabric softener	1	Can I wash these towels without fabric softener?	authored	-	-	-	-
+fabric softener	2	We ran out of fabric softener again.	authored	-	-	-	-
+fender bender	1	I got into a fender bender in the parking lot.	authored	-	-	-	-
+fender bender	2	It was a fender bender, and everyone's okay.	authored	-	-	-	-
+flammable	1	The label says it's flammable.	authored	-	-	-	-
+flammable	2	We can't store anything flammable next to the heater.	authored	-	-	-	-
+flustered	1	I got flustered and forgot her name.	authored	-	-	-	-
+flustered	2	He looked a little flustered when everyone turned around.	authored	-	-	-	-
+foolproof	1	Is there a foolproof way to fold this map?	authored	-	-	-	-
+foolproof	2	This recipe is about as foolproof as it gets.	authored	-	-	-	-
+fraud	1	The bank called me about possible fraud.	authored	-	-	-	-
+fraud	2	I reported the fraud as soon as I noticed the charges.	authored	-	-	-	-
+gist	1	I missed a few words, but I got the gist.	authored	-	-	-	-
+gist	2	Can you give me the gist before we go in?	authored	-	-	-	-
+grater	1	Can you pass me the cheese grater?	authored	-	-	-	-
+grater	2	I used a grater to shred the carrots.	authored	-	-	-	-
+gridlock	1	We got stuck in gridlock downtown.	authored	-	-	-	-
+gridlock	2	The rain turned the commute into gridlock.	authored	-	-	-	-
+grime	1	There's a layer of grime on the stove.	authored	-	-	-	-
+grime	2	This cleaner takes the grime off pretty quickly.	authored	-	-	-	-
+groggy	1	I always feel groggy after a nap.	authored	-	-	-	-
+groggy	2	I'm still a little groggy from waking up early.	authored	-	-	-	-
+headhunter	1	A headhunter called me about a job.	authored	-	-	-	-
+headhunter	2	Did you find that role through a headhunter?	authored	-	-	-	-
+hearsay	1	That's hearsay. Did you see it yourself?	authored	-	-	-	-
+hearsay	2	I wouldn't make a decision based on hearsay.	authored	-	-	-	-
+hives	1	I broke out in hives after dinner.	authored	-	-	-	-
+hives	2	When did the hives first show up?	authored	-	-	-	-
+houseguest	1	We have a houseguest for the weekend.	authored	-	-	-	-
+houseguest	2	I put out fresh towels for our houseguest.	authored	-	-	-	-
+hubcap	1	I lost a hubcap on the way home.	authored	-	-	-	-
+hubcap	2	Can we replace just one hubcap?	authored	-	-	-	-
+hunch	1	I've got a hunch we'll need more time.	authored	-	-	-	-
+hunch	2	It was just a hunch, but I turned out to be right.	authored	-	-	-	-
+ice tray	1	Can you refill the ice tray?	authored	-	-	-	-
+ice tray	2	I spilled water getting the ice tray into the freezer.	authored	-	-	-	-
+identity theft	1	I froze my credit after the identity theft.	authored	-	-	-	-
+identity theft	2	What should I do if I suspect identity theft?	authored	-	-	-	-
+inconsiderate	1	That was inconsiderate of me.	authored	-	-	-	-
+inconsiderate	2	It's inconsiderate to cancel that late.	authored	-	-	-	-
+interchangeable	1	Are those two parts interchangeable?	authored	-	-	-	-
+interchangeable	2	I thought the words were interchangeable, but they aren't.	authored	-	-	-	-
+intruder	1	Someone called the police about an intruder.	authored	-	-	-	-
+intruder	2	The dog barked when it heard the intruder.	authored	-	-	-	-
+knack	1	She's got a knack for fixing things.	authored	-	-	-	-
+knack	2	I never got the knack of doing that by hand.	authored	-	-	-	-
+laceration	1	The doctor put stitches in the laceration.	authored	-	-	-	-
+laceration	2	He had a laceration above his eye.	authored	-	-	-	-
+ladle	1	Could you grab a ladle for the soup?	authored	-	-	-	-
+ladle	2	The ladle is in the top drawer.	authored	-	-	-	-
+landlady	1	Our landlady lives upstairs.	authored	-	-	-	-
+landlady	2	I called the landlady about the broken heater.	authored	-	-	-	-
+leftovers	1	Are we having leftovers tonight?	authored	-	-	-	-
+leftovers	2	I packed the leftovers for lunch.	authored	-	-	-	-
+lint	1	There's lint all over this sweater.	authored	-	-	-	-
+lint	2	I emptied the lint trap before drying the towels.	authored	-	-	-	-
+looting	1	Several stores reported looting overnight.	authored	-	-	-	-
+looting	2	The local paper covered the looting.	authored	-	-	-	-
+merchandise	1	Can I return sale merchandise?	authored	-	-	-	-
+merchandise	2	They moved the new merchandise to the front.	authored	-	-	-	-
+mildew	1	There's mildew on the shower curtain.	authored	-	-	-	-
+mildew	2	I think that smell is from mildew.	authored	-	-	-	-
+misdemeanor	1	The charge was a misdemeanor.	authored	-	-	-	-
+misdemeanor	2	He told me it was a misdemeanor.	authored	-	-	-	-
+move-in date	1	Can we change the move-in date?	authored	-	-	-	-
+move-in date	2	They handed me the keys on my move-in date.	authored	-	-	-	-
+neighborly	1	That was really neighborly of you.	authored	-	-	-	-
+neighborly	2	People are pretty neighborly on this block.	authored	-	-	-	-
+nitpick	1	I don't want to nitpick, but that date's wrong.	authored	-	-	-	-
+nitpick	2	They spent half the meeting nitpicking the wording.	authored	-	-	-	-
+nosy	1	Sorry, I don't mean to be nosy.	authored	-	-	-	-
+nosy	2	My neighbor gets nosy when I have company.	authored	-	-	-	-
+odometer	1	What does the odometer say?	authored	-	-	-	-
+odometer	2	The odometer was already over a hundred thousand miles.	authored	-	-	-	-
+onboarding	1	I have two days of onboarding next week.	authored	-	-	-	-
+onboarding	2	Who handles onboarding for your team?	authored	-	-	-	-
+optional	1	Is that field optional?	authored	-	-	-	-
+optional	2	The last session is optional.	authored	-	-	-	-
+overdraft	1	I got charged an overdraft fee.	authored	-	-	-	-
+overdraft	2	Does this account have overdraft protection?	authored	-	-	-	-
+paraphrase	1	Let me paraphrase what I heard.	authored	-	-	-	-
+paraphrase	2	Can you paraphrase that in plain English?	authored	-	-	-	-
+parchment paper	1	Line the tray with parchment paper.	authored	-	-	-	-
+parchment paper	2	We're out of parchment paper.	authored	-	-	-	-
+perjury	1	He was charged with perjury.	authored	-	-	-	-
+perjury	2	Can a witness be prosecuted for perjury?	authored	-	-	-	-
+perpetrator	1	Police are still looking for the perpetrator.	authored	-	-	-	-
+perpetrator	2	Did anyone get a good look at the perpetrator?	authored	-	-	-	-
+plea bargain	1	His lawyer told him about the plea bargain.	authored	-	-	-	-
+plea bargain	2	She turned down the plea bargain.	authored	-	-	-	-
+pliers	1	Can you hand me the pliers?	authored	-	-	-	-
+pliers	2	I need a pair of pliers to pull that out.	authored	-	-	-	-
+potluck	1	What are you bringing to the potluck?	authored	-	-	-	-
+potluck	2	We're having a potluck at work on Friday.	authored	-	-	-	-
+precaution	1	I brought a flashlight as a precaution.	authored	-	-	-	-
+precaution	2	We took a few extra precautions before the storm.	authored	-	-	-	-
+pretentious	1	The menu sounded a little pretentious to me.	authored	-	-	-	-
+pretentious	2	He's really easy to talk to and never pretentious.	authored	-	-	-	-
+prorated rent	1	Is that the prorated rent for the first month?	authored	-	-	-	-
+prorated rent	2	They charged us prorated rent because we moved in on the fifteenth.	authored	-	-	-	-
+rebuttal	1	Did you read her rebuttal?	authored	-	-	-	-
+rebuttal	2	He offered a rebuttal to the claim about costs.	authored	-	-	-	-
+receipt	1	Could I get a receipt for that?	authored	-	-	-	-
+receipt	2	I put the receipt in the bag.	authored	-	-	-	-
+red flag	1	No written estimate is a red flag for me.	authored	-	-	-	-
+red flag	2	That email had a couple of red flags.	authored	-	-	-	-
+reiterate	1	Let me reiterate what we agreed on.	authored	-	-	-	-
+reiterate	2	I just want to reiterate that you're welcome to bring a friend.	authored	-	-	-	-
+renters insurance	1	Does the lease require renters insurance?	authored	-	-	-	-
+renters insurance	2	I called to get a quote for renters insurance.	authored	-	-	-	-
+rephrase	1	Can you rephrase that question?	authored	-	-	-	-
+rephrase	2	Let me rephrase. What time do you need the car?	authored	-	-	-	-
+resentful	1	I got resentful when I had to do all the work.	authored	-	-	-	-
+resentful	2	He was resentful about being left out.	authored	-	-	-	-
+retort	1	She had a quick retort ready.	authored	-	-	-	-
+retort	2	I thought of a good retort on the way home.	authored	-	-	-	-
+roadwork	1	There's roadwork on the highway this week.	authored	-	-	-	-
+roadwork	2	We left early because of the roadwork.	authored	-	-	-	-
+sarcasm	1	I couldn't tell if that was sarcasm.	authored	-	-	-	-
+sarcasm	2	My sarcasm doesn't always come across in texts.	authored	-	-	-	-
+sauté	1	Sauté the onions until they're soft.	authored	-	-	-	-
+sauté	2	I usually sauté the mushrooms in a little butter.	authored	-	-	-	-
+sear	1	I sear the steak before I put it in the oven.	authored	-	-	-	-
+sear	2	Can you sear both sides first?	authored	-	-	-	-
+severance	1	Did they offer you severance?	authored	-	-	-	-
+severance	2	My severance came in a single payment.	authored	-	-	-	-
+shoplifting	1	The store has had a problem with shoplifting lately.	authored	-	-	-	-
+shoplifting	2	She got caught shoplifting when she was a teenager.	authored	-	-	-	-
+sidekick	1	My dog is my little sidekick on walks.	authored	-	-	-	-
+sidekick	2	The sidekick was my favorite character.	authored	-	-	-	-
+skillet	1	Heat the skillet while I chop the onions.	authored	-	-	-	-
+skillet	2	Does this skillet have a lid?	authored	-	-	-	-
+smug	1	Why does he look so smug?	authored	-	-	-	-
+smug	2	Try not to sound too smug when you tell her.	authored	-	-	-	-
+snarky	1	I didn't mean to sound snarky.	authored	-	-	-	-
+snarky	2	That was a pretty snarky reply.	authored	-	-	-	-
+spackle	1	Can you pick up a small tub of spackle?	authored	-	-	-	-
+spackle	2	I used spackle to fill the nail holes.	authored	-	-	-	-
+spare tire	1	Do we have a spare tire in the trunk?	authored	-	-	-	-
+spare tire	2	The mechanic checked the spare tire too.	authored	-	-	-	-
+spatula	1	Use a spatula to flip the pancakes.	authored	-	-	-	-
+spatula	2	Can I borrow your rubber spatula?	authored	-	-	-	-
+speed bump	1	Watch out for that speed bump.	authored	-	-	-	-
+speed bump	2	They put a speed bump outside the school.	authored	-	-	-	-
+sprain	1	I sprained my ankle getting off the bus.	authored	-	-	-	-
+sprain	2	It's a sprain, so I won't be running this weekend.	authored	-	-	-	-
+stain remover	1	Do you have a stain remover that works on coffee?	authored	-	-	-	-
+stain remover	2	I used a little stain remover on the collar.	authored	-	-	-	-
+sublease	1	I'm planning to sublease my room this summer.	authored	-	-	-	-
+sublease	2	Did your landlord approve the sublease?	authored	-	-	-	-
+subpoena	1	I got a subpoena in the mail.	authored	-	-	-	-
+subpoena	2	Did they subpoena the phone records?	authored	-	-	-	-
+subtenant	1	Did the lease say anything about having a subtenant?	authored	-	-	-	-
+subtenant	2	The subtenant moved out in June.	authored	-	-	-	-
+summons	1	I got a jury summons in the mail.	authored	-	-	-	-
+summons	2	What date is on the summons?	authored	-	-	-	-
+swab	1	The nurse took a swab from my throat.	authored	-	-	-	-
+swab	2	Will they swab my nose at the appointment?	authored	-	-	-	-
+tactful	1	Is there a more tactful way to say that?	authored	-	-	-	-
+tactful	2	She was pretty tactful about the whole thing.	authored	-	-	-	-
+tagalong	1	I was the little tagalong on my sister's trips.	authored	-	-	-	-
+tagalong	2	You don't need to ask. You're always welcome as a tagalong.	authored	-	-	-	-
+tailgate	1	The driver behind me was tailgating the whole way.	authored	-	-	-	-
+tailgate	2	Don't tailgate on a wet road.	authored	-	-	-	-
+takeout	1	Do you want to get takeout tonight?	authored	-	-	-	-
+takeout	2	I picked up takeout on the way home.	authored	-	-	-	-
+tamper-proof	1	Does the box have a tamper-proof seal?	authored	-	-	-	-
+tamper-proof	2	They switched to a tamper-proof container.	authored	-	-	-	-
+thaw	1	Did you take the chicken out to thaw?	authored	-	-	-	-
+thaw	2	Let the berries thaw before you blend them.	authored	-	-	-	-
+throbbing	1	My tooth has been throbbing all morning.	authored	-	-	-	-
+throbbing	2	It's more of a throbbing pain than a sharp one.	authored	-	-	-	-
+trade-off	1	For me, the shorter commute is worth the trade-off.	authored	-	-	-	-
+trade-off	2	There's a trade-off between price and convenience.	authored	-	-	-	-
+trespassing	1	There's a no-trespassing sign on the gate.	authored	-	-	-	-
+trespassing	2	The owner reported them for trespassing.	authored	-	-	-	-
+triage	1	The triage nurse asked what brought me in.	authored	-	-	-	-
+triage	2	They sent me to triage when I got there.	authored	-	-	-	-
+trivet	1	Put a trivet under that hot pan.	authored	-	-	-	-
+trivet	2	Can you grab a trivet from the drawer?	authored	-	-	-	-
+turn signal	1	Your turn signal is still on.	authored	-	-	-	-
+turn signal	2	One of my turn signals burned out.	authored	-	-	-	-
+unclog	1	Can you help me unclog the sink?	authored	-	-	-	-
+unclog	2	I finally unclogged the shower drain.	authored	-	-	-	-
+undercooked	1	I think the rice is still undercooked.	authored	-	-	-	-
+undercooked	2	The middle of my burger looks undercooked.	authored	-	-	-	-
+unreliable	1	My old car got too unreliable for that commute.	authored	-	-	-	-
+unreliable	2	The trains are pretty unreliable after ten.	authored	-	-	-	-
+unsanitary	1	That kitchen looked unsanitary.	authored	-	-	-	-
+unsanitary	2	We told the manager about the unsanitary conditions.	authored	-	-	-	-
+urinalysis	1	They asked for a urine sample for a urinalysis.	authored	-	-	-	-
+urinalysis	2	Did the urinalysis results come back?	authored	-	-	-	-
+vandalism	1	The school had to clean up after the vandalism.	authored	-	-	-	-
+vandalism	2	Was that an accident or vandalism?	authored	-	-	-	-
+vendor	1	I bought it from a vendor at the market.	authored	-	-	-	-
+vendor	2	We're looking for a different vendor for the office supplies.	authored	-	-	-	-
+verifiable	1	He didn't give us anything verifiable.	authored	-	-	-	-
+verifiable	2	Do you have a verifiable address for the company?	authored	-	-	-	-
+vitals	1	The nurse checked my vitals before the doctor came in.	authored	-	-	-	-
+vitals	2	Can I see the vitals you recorded?	authored	-	-	-	-
+wheeze	1	He started to wheeze halfway through the run.	authored	-	-	-	-
+wheeze	2	I could hear a wheeze when I breathed out.	authored	-	-	-	-
+whisk	1	Whisk the eggs while I heat the pan.	authored	-	-	-	-
+whisk	2	Where do we keep the whisk?	authored	-	-	-	-
+winded	1	I was winded after climbing those stairs.	authored	-	-	-	-
+winded	2	Give me a second. I'm a little winded.	authored	-	-	-	-
+wisecrack	1	He made a wisecrack about my cooking.	authored	-	-	-	-
+wisecrack	2	Save the wisecracks until after the meeting.	authored	-	-	-	-

@@ -5695,5 +5695,12 @@
     "write-off",
     "year-to-date",
     "yield to pedestrians"
-  ]
+  ],
+  "american_reading_guides": {
+    "scheme": "american-respelling-v1",
+    "entries": 16266,
+    "reference_entries": 1019,
+    "letter_spelling_entries": 806,
+    "guide": "分类词库/美式易读说明.md"
+  }
 }

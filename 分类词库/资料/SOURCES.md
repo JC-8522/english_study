@@ -1,10 +1,14 @@
 # 资料、范围与阅读说明
 
-词条由仓库原有的全部 37 份词汇文件合并而来；`INDEX.md` 只作为索引扫描，不作为词汇来源。原笔记与根目录的旧版主清单都保留原样。按用户后续要求，整理版移除了四个人名分类；这些词不在新主清单、分册或例句出处中保留。每个细分类存放在一个 [分册文件](../分册/) 中，可从 [分类阅读目录](../README.md) 直接打开。
+原有词条由仓库的全部 37 份词汇文件合并而来；`INDEX.md` 只作为索引扫描，不作为词汇来源。原笔记与根目录的旧版主清单都保留原样。按用户后续要求，整理版移除了四个人名分类；这些词不在新主清单、分册或例句出处中保留。每个细分类存放在一个 [分册文件](../分册/) 中，可从 [分类阅读目录](../README.md) 直接打开。
 
 同一拼写按 Unicode NFKC、大小写、弯引号、连字符和空格规范化后合并，保留释义与全部来源。不同词形、不同短语不强行合并。原表里误拆的 `Clef (Treble` 和 `Bass)` 修复为 `treble clef` 和 `bass clef`；旅游笔记里被误列为词条的两个栏目标题（四行）不当作单词。具体记录见 [manifest.json](manifest.json)。
 
-每条词的来源文件、原行号和原词头见 [word-provenance.tsv](word-provenance.tsv)。原行号指 manifest 所记录的合并前 Git 提交，避免主文件改写后产生混淆。保留的未释义标签只演示如何在对话中引用字符串，未替原资料猜造释义。
+原有词条的来源文件、原行号和原词头见 [word-provenance.tsv](word-provenance.tsv)。原行号指 manifest 所记录的合并前 Git 提交，避免主文件改写后产生混淆。保留的未释义标签只演示如何在对话中引用字符串，未替原资料猜造释义。
+
+新增的进阶日常词汇按使用场景直接收入现有分册。新增词头记录在 [manifest.json](manifest.json) 的 `supplemental_words` 中，例句为新写。读音按美式标注。短语给出一种常见的重读方式，实际说话时重读可以随语境变化。
+
+常用词查漏参考 [SUBTLEX-US 美式影视字幕词频](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexus) 和 [New General Service List 1.2](https://www.newgeneralservicelist.com/new-general-service-list)。根据中级学习需求筛选，优先收录有实际使用场景、词库缺少的词头，如 `burglary`、`wheeze` 和 `snarky`。词频帮助发现缺口，释义和例句为自编。
 
 ## 例句
 
@@ -30,6 +34,8 @@ Tatoeba 句子按 [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/
 雪利酒词条中的 `flor` 用法参考[赫雷斯产区委员会的陈年说明](https://www.sherry.wine/sherry-wine/production/ageing)。
 
 多义词保留一个主分册，优先选择和本条例句一致的词义。明确发现释义或例句错用时一并修正，例如把点啤酒时的 `beers` 和 `stout` 放在「啤酒与酿造」。无法可靠判定的词形和上下文放在「原始资料附录」。单个分册最多 100 条，原分册拆开后可通过旧地址查看对应的新分册。
+
+饮食按食材、菜式、饮料、烹饪和营养组织。例如，椰子按日常饮食用法归入水果，维生素归入营养，点餐用语归入餐厅点餐与用餐。其他主题也按实际用途拆开，例如「酒店房型与入住退房」和「行程与观光」，以及「信用贷款与债务」和「账户转账与账单」。目录保留被拆分或更名的分册地址。
 
 ## 校验
 

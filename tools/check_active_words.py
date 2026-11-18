@@ -35,6 +35,29 @@ def read_tsv(name):
 def chapter_filename(category):
     return re.sub(r'[^\w\u4e00-\u9fff-]+', '-', category).strip('-') + '.md'
 
+def indexed_chapters(index, topics):
+    """Read each chapter link together with its visible parent categories."""
+    parents = []
+    links = Counter()
+    for line in index.splitlines():
+        if line.startswith('## '):
+            title = line[3:]
+            parents = [title] if title in topics else []
+            continue
+        match = re.fullmatch(r'( *)- (?:\*\*(.+)\*\*|\[(.+)（(\d+)）\]\((分册/[^)]+)\))', line)
+        if not match:
+            continue
+        indent, group, label, count, path = match.groups()
+        depth, extra = divmod(len(indent), 2)
+        assert parents and not extra and depth < len(parents), ('Invalid index indentation', line)
+        parents = parents[:depth + 1]
+        if group is not None:
+            parents.append(group)
+        else:
+            category = ' / '.join([*parents, label])
+            links[category, int(count), path] += 1
+    return links
+
 def main():
     manifest = json.loads((DATA / 'manifest.json').read_text(encoding='utf8'))
     assert LIBRARY.is_dir() and CHAPTERS.is_dir() and DATA.is_dir()
@@ -87,22 +110,25 @@ def main():
             assert all(x.strip() and x.strip() != '—' for x in (pronunciation, stress, meaning, ex1, ex2)), key
             assert ex1 != ex2, 'Repeated example: ' + key
             word_lines[key] = (category, ex1, ex2)
-        leaf = category.rsplit(' / ', 1)[-1]
         assert 0 < counts[category] <= MAX_ENTRIES_PER_CHAPTER, ('Chapter exceeds entry limit or is empty', category)
-        expected_links[leaf, str(counts[category]), f'分册/{path.name}'] += 1
+        expected_links[category, counts[category], f'分册/{path.name}'] += 1
     assert len(word_lines) == manifest['entries']
     assert counts == manifest['category_counts']
     assert seen_index_pages == index_pages.keys(), 'Missing old chapter indexes'
     index = contents.read_text(encoding='utf8')
-    links = re.findall(r'\[([^\]\n]+)（(\d+)）\]\((分册/[^)]+)\)', index)
-    assert Counter(links) == expected_links, 'Index chapter links or counts differ from the chapters'
     topics = {category.split(' / ', 1)[0] for category in counts}
+    assert indexed_chapters(index, topics) == expected_links, 'Index hierarchy, links, or counts differ from the chapters'
     headings = set(re.findall(r'^## (.+)$', index, re.M))
     jump_links = Counter(re.findall(r'\[[^\]\n]+\]\(#([^)]+)\)', index))
     assert topics <= headings and jump_links == Counter(topics), 'Index topic links differ from the topics'
 
     provenance = read_tsv('word-provenance.tsv')
-    assert {r['word'] for r in provenance} == set(word_lines), 'Source/output coverage differs'
+    supplemental = manifest.get('supplemental_words', [])
+    supplemental_keys = set(supplemental)
+    original_keys = {r['word'] for r in provenance}
+    assert len(supplemental_keys) == len(supplemental), 'Duplicate supplemental word'
+    assert not original_keys & supplemental_keys, 'Supplemental word is already in the original sources'
+    assert original_keys | supplemental_keys == word_lines.keys(), 'Source/output coverage differs'
     source_rows = defaultdict(set)
     for row in provenance:
         assert row['category'] == word_lines[row['word']][0]
@@ -146,6 +172,8 @@ def main():
     for row in examples:
         index = int(row['example'])
         assert index in (1, 2)
+        if row['word'] in supplemental_keys:
+            assert row['source'] == 'authored', ('Missing authored example', row['word'])
         rendered = word_lines[row['word']][index]
         if row['source'] == 'Tatoeba':
             assert row['sentence_id'] and row['author']
@@ -168,7 +196,8 @@ def main():
               'explicitly_excluded_name_source_rows': sum(len(rows) for rows in manifest['user_excluded_source_rows'].values()),
               'contents': '分类词库/README.md',
               'unresolved_original_labels': manifest['unresolved_original_labels'],
-              'uncertain_context_entries': manifest['uncertain_context_entries']}
+              'uncertain_context_entries': manifest['uncertain_context_entries'],
+              'supplemental_entries': len(supplemental_keys)}
     (DATA / 'validation.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
     print(json.dumps(result, ensure_ascii=False))
 

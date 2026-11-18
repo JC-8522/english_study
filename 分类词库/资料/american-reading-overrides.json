@@ -1,0 +1,2026 @@
+{
+  "description": "American IPA overrides for helpers only; all pre-existing entry fields are preserved.",
+  "sources": {
+    "CMUdict": "https://github.com/cmusphinx/cmudict",
+    "eSpeak NG": "https://github.com/espeak-ng/espeak-ng",
+    "burglary": "https://www.merriam-webster.com/dictionary/burglary"
+  },
+  "entries": {
+    "abn": {
+      "pronunciation": "/ˈæbən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "accesses": {
+      "pronunciation": "/ˈæksɛsᵻz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "adverts": {
+      "pronunciation": "/ˈædvɜːts/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "aed": {
+      "pronunciation": "/eɪ i di/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "ageing": {
+      "pronunciation": "/ˈeɪdʒɪŋ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "aggregator": {
+      "pronunciation": "/ˈæɡɹɪɡˌeɪɾɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "aka": {
+      "pronunciation": "/eɪ keɪ eɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "alicante": {
+      "pronunciation": "/ˌælɪkˈɑːnteɪ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "allurement": {
+      "pronunciation": "/ɐlˈʊɹmənt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "amt": {
+      "pronunciation": "/ˈæmt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "analyse": {
+      "pronunciation": "/ˈænɐlˌaɪz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "anarchism": {
+      "pronunciation": "/ˈænɚkˌɪzəm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "anglerfish": {
+      "pronunciation": "/ˈæŋɡələfɪʃ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "anticipative": {
+      "pronunciation": "/æntˈɪsɪpətˌɪv/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "apis": {
+      "pronunciation": "/ɐpˈiz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "appl": {
+      "pronunciation": "/ɐpˈəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "aps": {
+      "pronunciation": "/ˈæps/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "arabidopsis": {
+      "pronunciation": "/ˌæɹɐbɪdˈɑːpsɪs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "argos": {
+      "pronunciation": "/ˈɑːɹɡoʊz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ars": {
+      "pronunciation": "/ˈɑːɹz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "arthralgia": {
+      "pronunciation": "/ɑːɹθɹˈældʒə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ashanti": {
+      "pronunciation": "/ɐʃˈænti/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "asin": {
+      "pronunciation": "/ˈæsɪn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ativan": {
+      "pronunciation": "/ˈæɾɪvˌæn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "authorisation": {
+      "pronunciation": "/ˌɔθɚəzˈeɪʃən/",
+      "source": "CMUdict: authorization",
+      "reference": false
+    },
+    "authorised": {
+      "pronunciation": "/ˈɔθɚˌaɪzd/",
+      "source": "CMUdict: authorized",
+      "reference": false
+    },
+    "avi": {
+      "pronunciation": "/eɪ vi aɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "awakenings": {
+      "pronunciation": "/ɐwˈeɪkənɪŋz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "barcode": {
+      "pronunciation": "/bˈɑːɹkoʊd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "beanie": {
+      "pronunciation": "/bˈiːni/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bedfordshire": {
+      "pronunciation": "/bˈɛdfɚdʃɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "behavioural": {
+      "pronunciation": "/bᵻhˈeɪvjɚɹəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ber": {
+      "pronunciation": "/bˈɜː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bezel": {
+      "pronunciation": "/bˈɛzəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bioinformatics": {
+      "pronunciation": "/bˌaɪoʊɪnfɔːɹmˈæɾɪks/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "birding": {
+      "pronunciation": "/bˈɜːdɪŋ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bissau": {
+      "pronunciation": "/bˈɪsaʊ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bldg": {
+      "pronunciation": "/bˌiːˌɛldˌiːdʒˈiː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "blogroll": {
+      "pronunciation": "/blˈɑːɡɹoʊl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bmi": {
+      "pronunciation": "/bi ɛm aɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "bmx": {
+      "pronunciation": "/bˌiːˌɛmˈɛks/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bod": {
+      "pronunciation": "/bˈɑːd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "boing": {
+      "pronunciation": "/bˈɔɪŋ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "booger": {
+      "pronunciation": "/bˈʊɡɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bool": {
+      "pronunciation": "/bˈuːl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bournemouth": {
+      "pronunciation": "/bˈɔːɹnɛməθ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bouvet": {
+      "pronunciation": "/bˈuːvɪt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "brushstroke": {
+      "pronunciation": "/bɹˈʌʃstɹoʊk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "bse": {
+      "pronunciation": "/bˌiːˌɛsˈiː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "buckinghamshire": {
+      "pronunciation": "/bˈʌkɪŋˌæmʃɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "burberry": {
+      "pronunciation": "/bˈɜːbɛɹi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "burglary": {
+      "pronunciation": "/ˈbɝ.ɡlə.ri/",
+      "source": "Merriam-Webster burglary + user-reviewed BUR-gluh-ree",
+      "reference": false
+    },
+    "cabling": {
+      "pronunciation": "/kˈeɪblɪŋ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "caicos": {
+      "pronunciation": "/kˈeɪkoʊz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "cambridgeshire": {
+      "pronunciation": "/kˈeɪmbɹɪdʒʃɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "cao": {
+      "pronunciation": "/si eɪ oʊ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "caret": {
+      "pronunciation": "/kˈæɹət/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "carisoprodol": {
+      "pronunciation": "/kˈæɹɪsˌɑːpɹədˌɑːl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "centred": {
+      "pronunciation": "/sˈɛntəd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "centric": {
+      "pronunciation": "/sˈɛntɹɪk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "cerebrovascular accident": {
+      "pronunciation": "/sɚɹˌiːbɹəvˈæskjʊlɚɹ ˈæksɪdənt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "cgi": {
+      "pronunciation": "/si dʒi aɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "cheltenham": {
+      "pronunciation": "/tʃˈɛltənˌæm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "chipset": {
+      "pronunciation": "/tʃˈɪpsɛt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "cia": {
+      "pronunciation": "/si aɪ eɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "classist": {
+      "pronunciation": "/klˈæsɪst/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "clingy": {
+      "pronunciation": "/klˈɪŋi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "closeout": {
+      "pronunciation": "/klˈoʊsaʊt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "closeouts": {
+      "pronunciation": "/klˈoʊsaʊts/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "cns": {
+      "pronunciation": "/si ɛn ɛs/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "coe": {
+      "pronunciation": "/si oʊ i/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "cogitative": {
+      "pronunciation": "/kˈɑːdʒᵻtˌeɪɾɪv/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "collectable": {
+      "pronunciation": "/kəlˈɛktəbəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "concordance": {
+      "pronunciation": "/kəŋkˈɔːɹdəns/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "conserv": {
+      "pronunciation": "/kənsˈɜːv/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "contriving": {
+      "pronunciation": "/kəntɹˈaɪvɪŋ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "coolish": {
+      "pronunciation": "/kˈuːlɪʃ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "coppermine": {
+      "pronunciation": "/kˈɑːpɚmɪn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "councillor": {
+      "pronunciation": "/kˈaʊnsɪlɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "councillors": {
+      "pronunciation": "/kˈaʊnsɪlɚz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "counterintuitive": {
+      "pronunciation": "/kˌaʊntɚɹɪntˈuːᵻtˌɪv/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "coursework": {
+      "pronunciation": "/kˈɔːɹsjuːˌɜːk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "cpr": {
+      "pronunciation": "/si pi ɑr/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "creatine": {
+      "pronunciation": "/kɹiːˈeɪtiːn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "croydon": {
+      "pronunciation": "/kɹˈɔɪdɑːn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "cryptography": {
+      "pronunciation": "/kɹɪptˈɑːɡɹəfi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "cuboid": {
+      "pronunciation": "/kjˈuːbɔɪd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "cumbria": {
+      "pronunciation": "/kˈʌmbɹiə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "customise": {
+      "pronunciation": "/kˈʌstəmˌaɪz/",
+      "source": "CMUdict: customize",
+      "reference": false
+    },
+    "customised": {
+      "pronunciation": "/kˈʌstəmˌaɪzd/",
+      "source": "CMUdict: customized",
+      "reference": false
+    },
+    "cuz": {
+      "pronunciation": "/kˈʌz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "dea": {
+      "pronunciation": "/di i eɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "debugger": {
+      "pronunciation": "/dˈiːbˌʌɡɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "decal": {
+      "pronunciation": "/dᵻkˈæl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "decrescendo": {
+      "pronunciation": "/dᵻkɹɪsˈɛndoʊ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "dehydrogenase": {
+      "pronunciation": "/dˌiːhaɪdɹˈoʊdʒneɪs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "dia": {
+      "pronunciation": "/di aɪ eɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "diazepam": {
+      "pronunciation": "/dˈaɪəzˌɛpæm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "diecast": {
+      "pronunciation": "/dˈaɪkæst/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "dilemmatic": {
+      "pronunciation": "/daɪlmˈæɾɪk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "diminuendo": {
+      "pronunciation": "/dᵻmˌɪnjuːˈɛndoʊ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "dod": {
+      "pronunciation": "/di oʊ di/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "doi": {
+      "pronunciation": "/di oʊ aɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "doncaster": {
+      "pronunciation": "/dˈɑːŋkæstɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "dragonfly": {
+      "pronunciation": "/dɹˈæɡənflˌaɪ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "drosophila": {
+      "pronunciation": "/dɹˌɑːsəfˈɪlə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "dystopian": {
+      "pronunciation": "/dɪstˈoʊpiən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "dysuria": {
+      "pronunciation": "/daɪsˈɜːɹiə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "earache": {
+      "pronunciation": "/ˈɪɹeɪk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "earlobe": {
+      "pronunciation": "/ˈɪɹloʊb/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ecg": {
+      "pronunciation": "/i si dʒi/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "ecommerce": {
+      "pronunciation": "/ˈiːkˌɑːmɜːs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ecotourism": {
+      "pronunciation": "/ˈɛkətˌʊɹɹɪzəm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "electronica": {
+      "pronunciation": "/ᵻlɛktɹˈɑːnɪkə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ellipsis": {
+      "pronunciation": "/ɪlˈɪpsɪs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "emoticons": {
+      "pronunciation": "/ɪmˈɑːɾɪkənz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "employability": {
+      "pronunciation": "/ɛmplˌɔɪəbˈɪlᵻɾi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "encoder": {
+      "pronunciation": "/ɛŋkˈoʊdɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "encumbrance": {
+      "pronunciation": "/ɛŋkˈʌmbɹəns/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "enquiries": {
+      "pronunciation": "/ɛŋkwˈaɪɚɹiz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "enrolment": {
+      "pronunciation": "/ɛnɹˈoʊlmənt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ent": {
+      "pronunciation": "/i ɛn ti/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "environ": {
+      "pronunciation": "/ɛnvˈaɪɹən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "epididymis": {
+      "pronunciation": "/ˈɛpɪdˌɪdɪmˌɪs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "epiphanic": {
+      "pronunciation": "/ˌɛpɪfˈænɪk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "epistaxis": {
+      "pronunciation": "/ᵻpɪstˈæksɪs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "equanimous": {
+      "pronunciation": "/iːkwˈænɪməs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "erectile": {
+      "pronunciation": "/ɪɹˈɛktaɪl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "escherichia": {
+      "pronunciation": "/ˌɛʃɚɹˈɪkiə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "eta": {
+      "pronunciation": "/ˈiːɾə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "evite": {
+      "pronunciation": "/ˈɛvaɪt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "executable": {
+      "pronunciation": "/ˌɛksᵻkjˈuːɾəbəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "existentialism": {
+      "pronunciation": "/ɛɡzɪstˈɛnʃɪəlˌɪzəm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "expat": {
+      "pronunciation": "/ɛkspˈæt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "extern": {
+      "pronunciation": "/ɛkstˈɜːn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "externality": {
+      "pronunciation": "/ɛkstˈɜːnˈælᵻɾi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "extractor": {
+      "pronunciation": "/ˈɛkstɹæktɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "fantastical": {
+      "pronunciation": "/fæntˈæstɪkəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "fao": {
+      "pronunciation": "/ɛf eɪ oʊ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "favourable": {
+      "pronunciation": "/fˈeɪvɚɹəbəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "fbi": {
+      "pronunciation": "/ɛf bi aɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "fda": {
+      "pronunciation": "/ɛf di eɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "filesize": {
+      "pronunciation": "/fˈaɪlsaɪz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "filmography": {
+      "pronunciation": "/fɪlmˈɑːɡɹəfi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "flavour": {
+      "pronunciation": "/flˈeɪvɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "flirty": {
+      "pronunciation": "/flˈɜːɾi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "fortitudinous": {
+      "pronunciation": "/fˌɔːɹɾɪtˈuːdɪnəs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "fortran": {
+      "pronunciation": "/fˈɔːɹtɹæn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "fra": {
+      "pronunciation": "/fɹˈɑː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "fre": {
+      "pronunciation": "/fɹˈiː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "galerie": {
+      "pronunciation": "/ɡˈælɚɹi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "gam": {
+      "pronunciation": "/ɡˈæm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "gangbang": {
+      "pronunciation": "/ɡˈæŋbæŋ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "gao": {
+      "pronunciation": "/dʒi eɪ oʊ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "gcse": {
+      "pronunciation": "/dʒi si ɛs i/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "genomic": {
+      "pronunciation": "/dʒɛnˈɑːmɪk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "gentoo": {
+      "pronunciation": "/dʒˈɛntuː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "geophysics": {
+      "pronunciation": "/dʒˌiːoʊfˈɪzɪks/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ger": {
+      "pronunciation": "/dʒˈɜː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "gigabit": {
+      "pronunciation": "/ɡˈɪɡəbˌɪt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "gis": {
+      "pronunciation": "/dʒˈɪs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "glissando": {
+      "pronunciation": "/ɡlɪsˈændoʊ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "globalisation": {
+      "pronunciation": "/ɡlˌoʊbəlɪzˈeɪʃən/",
+      "source": "CMUdict: globalization",
+      "reference": false
+    },
+    "glossaries": {
+      "pronunciation": "/ɡlˈɔsɚɹiz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "gloucestershire": {
+      "pronunciation": "/ɡlˈɑːstɚʃɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "gpl": {
+      "pronunciation": "/dʒˌiːpˌiːˈɛl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "grouchiness": {
+      "pronunciation": "/ˈɡraʊ.tʃi.nəs/",
+      "source": "grouchy + ness",
+      "reference": false
+    },
+    "handcart": {
+      "pronunciation": "/hˈændkɑːɹt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "handjob": {
+      "pronunciation": "/hˈændʒɑːb/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "handsfree": {
+      "pronunciation": "/hˈændsfɹiː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hannover": {
+      "pronunciation": "/hˈænoʊvɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "have goosebumps": {
+      "pronunciation": "/hæv ˈɡus.ˌbʌmps/",
+      "source": "have + goose + bumps",
+      "reference": false
+    },
+    "helpdesk": {
+      "pronunciation": "/hˈɛlpdɛsk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "helpline": {
+      "pronunciation": "/hˈɛlplaɪn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hematemesis": {
+      "pronunciation": "/hˌɛmeɪtmˈiːsɪs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hematochezia": {
+      "pronunciation": "/hˌɛmɐɾəʃˈeɪiə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hemostat": {
+      "pronunciation": "/hˈiːmoʊstˌæt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hereinafter": {
+      "pronunciation": "/hˈɪɹɪnˌæftɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hertfordshire": {
+      "pronunciation": "/hˈɜːtfɚdʃɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hgh": {
+      "pronunciation": "/eɪtʃ dʒi eɪtʃ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "hhs": {
+      "pronunciation": "/eɪtʃ eɪtʃ ɛs/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "hibiscus": {
+      "pronunciation": "/hˈɪbɪskəs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hmm": {
+      "pronunciation": "/eɪtʃ ɛm ɛm/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "hmmm": {
+      "pronunciation": "/eɪtʃ ɛm ɛm ɛm/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "hms": {
+      "pronunciation": "/eɪtʃ ɛm ɛs/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "holiday merriment": {
+      "pronunciation": "/ˈhɑ.lə.ˌdeɪ ˈmɛ.rɪ.mənt/",
+      "source": "CMUdict components: holiday, merriment",
+      "reference": false
+    },
+    "hoodie": {
+      "pronunciation": "/hˈʊdi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hottie": {
+      "pronunciation": "/hˈɑːɾi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hyperthyroidism": {
+      "pronunciation": "/hˌaɪpɚθˈaɪɹɔɪdˌɪzəm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "hypothyroidism": {
+      "pronunciation": "/hˌaɪpoʊθˈaɪɹɔɪdˌɪzəm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ibs": {
+      "pronunciation": "/aɪ bi ɛs/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "ile": {
+      "pronunciation": "/ˈaɪl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "illuminative": {
+      "pronunciation": "/ɪlˈuːmɪnətˌɪv/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ilo": {
+      "pronunciation": "/aɪ ɛl oʊ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "incubus": {
+      "pronunciation": "/ˈɪŋkjuːbəs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "indecipherable": {
+      "pronunciation": "/ˌɪndᵻsˈaɪfɚɹəbəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "industriousness": {
+      "pronunciation": "/ɪndˈʌstɹiəsnəs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "initialization": {
+      "pronunciation": "/ɪnˌɪʃəlᵻzˈeɪʃən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "interoperability": {
+      "pronunciation": "/ˌɪntɚɹˌɑːpɚɹəbˈɪlᵻɾi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "intranet": {
+      "pronunciation": "/ˈɪntɹənˌɛt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "inverter": {
+      "pronunciation": "/ɪnvˈɜːɾɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ipswich": {
+      "pronunciation": "/ˈɪpswɪtʃ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ira": {
+      "pronunciation": "/aɪ ɑr eɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "italicized": {
+      "pronunciation": "/ɪtˈælɪsˌaɪzd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "iv bag": {
+      "pronunciation": "/aɪ vi bæɡ/",
+      "source": "IV is the letter names I and V in this medical phrase",
+      "reference": false
+    },
+    "jabber": {
+      "pronunciation": "/dʒˈæbɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "jeux": {
+      "pronunciation": "/dʒjˈuː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "kart": {
+      "pronunciation": "/kˈɑːɹt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "labia": {
+      "pronunciation": "/lˈeɪbiə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "labia majora": {
+      "pronunciation": "/lˈeɪbiə mɐdʒˈɔːɹə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "labia minora": {
+      "pronunciation": "/lˈeɪbiə mˈaɪnɔːɹə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "layup": {
+      "pronunciation": "/lˈeɪʌp/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "leica": {
+      "pronunciation": "/lˈeɪkə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "leicestershire": {
+      "pronunciation": "/lˈɛstɚʃɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "lesbo": {
+      "pronunciation": "/lˈɛsboʊ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "lesbos": {
+      "pronunciation": "/lˈɛsboʊz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "litre": {
+      "pronunciation": "/lˈiːɾɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "litres": {
+      "pronunciation": "/lˈiːɾɚz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "logon": {
+      "pronunciation": "/lɑːɡˈɑːn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "longship": {
+      "pronunciation": "/lˈɔŋʃɪp/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "luv": {
+      "pronunciation": "/lˈʌv/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "macros": {
+      "pronunciation": "/mˈækɹoʊz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "mage": {
+      "pronunciation": "/mˈeɪdʒ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "maintainer": {
+      "pronunciation": "/meɪntˈeɪnɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "mallorca": {
+      "pronunciation": "/mælˈɔːɹkə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "maths": {
+      "pronunciation": "/mˈæθs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "matted": {
+      "pronunciation": "/mˈæɾᵻd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "megapixel": {
+      "pronunciation": "/mˈɛɡəpˌɪksəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ment": {
+      "pronunciation": "/mˈɛnt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "meridia": {
+      "pronunciation": "/mɛɹˈɪdiə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "meritocratic": {
+      "pronunciation": "/mˌɛɹɪɾəkɹˈæɾɪk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "metacognitive": {
+      "pronunciation": "/mˌɛɾəkˈɑːɡnᵻtˌɪv/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "mia": {
+      "pronunciation": "/ɛm aɪ eɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "middleware": {
+      "pronunciation": "/mˈɪdəlwˌɛɹ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "miquelon": {
+      "pronunciation": "/mˈɪkwɛlən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "mods": {
+      "pronunciation": "/mˈɑːdz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "moochers": {
+      "pronunciation": "/ˈmu.tʃɚz/",
+      "source": "moocher + plural z",
+      "reference": false
+    },
+    "mot": {
+      "pronunciation": "/mˈɑːt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "msrp": {
+      "pronunciation": "/ɛm ɛs ɑr pi/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "multidisciplinary": {
+      "pronunciation": "/mˌʌltɪdˈɪsɪplˌɪnɛɹi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "multifunction": {
+      "pronunciation": "/mˌʌltɪfˈʌŋkʃən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "myalgia": {
+      "pronunciation": "/maɪˈældʒə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "narwhal": {
+      "pronunciation": "/nˈɑːɹwəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "natl": {
+      "pronunciation": "/nˈæɾəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "naturals": {
+      "pronunciation": "/nˈætʃɚɹəlz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "nauru": {
+      "pronunciation": "/nˈaʊɹuː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "nephrolithiasis": {
+      "pronunciation": "/nˌɛfɹəlˌɪθɪˈɑːsiz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ngo": {
+      "pronunciation": "/ɛn dʒi oʊ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "niue": {
+      "pronunciation": "/nˈɪjuː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "nootropic": {
+      "pronunciation": "/nuːtɹˈɑːpɪk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "northamptonshire": {
+      "pronunciation": "/nɔːɹθˈæmptənʃɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "northumberland": {
+      "pronunciation": "/nɔːɹθˈʌmbɚlənd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "nottinghamshire": {
+      "pronunciation": "/nˈɑːɾɪŋˌæmʃɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "nudists": {
+      "pronunciation": "/nˈuːdɪsts/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "oem": {
+      "pronunciation": "/oʊ i ɛm/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "offence": {
+      "pronunciation": "/əfˈɛns/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "offences": {
+      "pronunciation": "/əfˈɛnsᵻz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "opprobrious": {
+      "pronunciation": "/ɑːpɹˈɑːbɹiəs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "optimisation": {
+      "pronunciation": "/ɑptəməzˈeɪʃən/",
+      "source": "CMUdict: optimization",
+      "reference": false
+    },
+    "organise": {
+      "pronunciation": "/ˈɔrɡənˌaɪz/",
+      "source": "CMUdict: organize",
+      "reference": false
+    },
+    "otoscope": {
+      "pronunciation": "/ˈɑːɾəskˌoʊp/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "oxfordshire": {
+      "pronunciation": "/ˈɑːksfɚdʃɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "pagerank": {
+      "pronunciation": "/pˈædʒɚɹˌæŋk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "pagina": {
+      "pronunciation": "/pædʒˈiːnə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "palanquin": {
+      "pronunciation": "/pˈælɐŋkwˌɪn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "pantie": {
+      "pronunciation": "/pˈænti/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "parallelogram": {
+      "pronunciation": "/pˌæɹəlˈɛləɡɹˌæm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "parodic": {
+      "pronunciation": "/pæɹˈɑːdɪk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "pcos": {
+      "pronunciation": "/pi si oʊ ɛs/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "pendants": {
+      "pronunciation": "/pˈɛndənts/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "pentatonic scale": {
+      "pronunciation": "/pˌɛntɐtˈɑːnɪk skˈeɪl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "personalised": {
+      "pronunciation": "/pˈɝsənəlˌaɪzd/",
+      "source": "CMUdict: personalized",
+      "reference": false
+    },
+    "phat": {
+      "pronunciation": "/fˈæt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "phosphorylation": {
+      "pronunciation": "/fˌɑːsfɔːɹɪlˈeɪʃən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "physiol": {
+      "pronunciation": "/fˈɪzɪˌɑːl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "physiopathology": {
+      "pronunciation": "/fˌɪzɪˌɑːpɐθˈɑːlədʒi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "plat": {
+      "pronunciation": "/plˈæt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "polydipsia": {
+      "pronunciation": "/pˌɑːlɪdˈɪpsiə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "polyuria": {
+      "pronunciation": "/pˌɑːlɪjˈuːɹiə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "postcode": {
+      "pronunciation": "/pˈoʊstkoʊd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "postfix": {
+      "pronunciation": "/pˈoʊstfɪks/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "postgraduate": {
+      "pronunciation": "/pˈoʊstɡɹɐdʒˌuːeɪt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "prof": {
+      "pronunciation": "/pɹˈɑːf/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "prog": {
+      "pronunciation": "/pɹˈɑːɡ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "pruritus": {
+      "pronunciation": "/pɹˈʊɹɹɪɾəs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "pufferfish": {
+      "pronunciation": "/pˈʌfɚfɪʃ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "pulse oximeter": {
+      "pronunciation": "/pˈʌls ɑːksˈɪmᵻɾɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "punitively": {
+      "pronunciation": "/pjˈuːnᵻtˌɪvli/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "quadrilateral": {
+      "pronunciation": "/kwˌɑːdɹɪlˈæɾɚɹəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "racialness": {
+      "pronunciation": "/ˈreɪ.ʃəl.nəs/",
+      "source": "racial + ness",
+      "reference": false
+    },
+    "rajasthan": {
+      "pronunciation": "/ɹˌɑːdʒəstˈɑːn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "rants": {
+      "pronunciation": "/ɹˈænts/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "rbi": {
+      "pronunciation": "/ˌɑːɹbˌiːˈaɪ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "remix": {
+      "pronunciation": "/ɹᵻmˈɪks/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "remortgage": {
+      "pronunciation": "/ɹᵻmˈɔːɹɡɪdʒ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "reorientation": {
+      "pronunciation": "/ɹɪˌɔːɹiəntˈeɪʃən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "rhombus": {
+      "pronunciation": "/ɹˈɑːmbəs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ribosomal": {
+      "pronunciation": "/ɹˈɪbəsˌɑːməl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "roi": {
+      "pronunciation": "/ɑr oʊ aɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "rrp": {
+      "pronunciation": "/ˌɑːɹɹˌɑːɹpˈiː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "sagacious": {
+      "pronunciation": "/səɡˈeɪʃəs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "sagely": {
+      "pronunciation": "/sˈeɪdʒli/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "salivary glands": {
+      "pronunciation": "/ˈsæ.lə.ˌvɛr.i ɡlændz/",
+      "source": "American broad IPA; original note respelling",
+      "reference": false
+    },
+    "sch": {
+      "pronunciation": "/ɛs si eɪtʃ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "screensaver": {
+      "pronunciation": "/skɹˈiːnseɪvɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "screensavers": {
+      "pronunciation": "/skɹˈiːnseɪvɚz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "scrotum": {
+      "pronunciation": "/skɹˈoʊɾəm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "selector": {
+      "pronunciation": "/sᵻlˈɛktɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "semicolon": {
+      "pronunciation": "/sˌɛmɪkˈoʊlən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "seo": {
+      "pronunciation": "/ɛs i oʊ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "ser": {
+      "pronunciation": "/sˈɜː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "serif": {
+      "pronunciation": "/sˈɛɹɪf/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "sgd": {
+      "pronunciation": "/ˌɛsdʒˌiːdˈiː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "sgt": {
+      "pronunciation": "/ɛs dʒi ti/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "shoppy": {
+      "pronunciation": "/ʃˈɑːpi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "shortlist": {
+      "pronunciation": "/ʃˈɔːɹtlɪst/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "siena": {
+      "pronunciation": "/siˈɛnə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "sinusitis": {
+      "pronunciation": "/sˌɪnuːsˈaɪɾɪs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "sion": {
+      "pronunciation": "/sɪˈɑːn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "sith": {
+      "pronunciation": "/sˈɪθ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "skincare": {
+      "pronunciation": "/skˈɪŋkɛɹ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "slideshow": {
+      "pronunciation": "/slˈaɪdʃoʊ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "slipknot": {
+      "pronunciation": "/slˈɪpnɑːt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "slouchy": {
+      "pronunciation": "/slˈaʊtʃi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "snowboarding": {
+      "pronunciation": "/snˈoʊbɔːɹdɪŋ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "softcover": {
+      "pronunciation": "/sˈɔftkʌvɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "sphygmomanometer": {
+      "pronunciation": "/sfˌɪɡməmɐnˈɑːmɪɾɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "squealed away": {
+      "pronunciation": "/skwild əˈweɪ/",
+      "source": "CMUdict components: squealed, away",
+      "reference": false
+    },
+    "stammered": {
+      "pronunciation": "/stˈæmɚd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "stingray": {
+      "pronunciation": "/stˈɪŋɡɹeɪ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "stomachache": {
+      "pronunciation": "/stˈʌməkˌeɪk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "stormwater": {
+      "pronunciation": "/stˈɔːɹmwɔːɾɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "subclass": {
+      "pronunciation": "/sˈʌbklæs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "subparagraph": {
+      "pronunciation": "/sˈʌbpɐɹˌæɡɹæf/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "subpart": {
+      "pronunciation": "/sˈʌbpɑːɹt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "subsections": {
+      "pronunciation": "/sʌbsˈɛkʃənz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "subtotal": {
+      "pronunciation": "/sˈʌbtoʊɾəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "summery": {
+      "pronunciation": "/sˈʌmɚɹi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "superannuation": {
+      "pronunciation": "/sˌuːpɚɹˌænjuːˈeɪʃən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "svalbard": {
+      "pronunciation": "/svˈælbɑːɹd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "swansea": {
+      "pronunciation": "/swˈɑːnsiː/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "swerving out of the way": {
+      "pronunciation": "/ˈswɝ.vɪŋ aʊt əv ðə ˈweɪ/",
+      "source": "American phrase with weak of and the",
+      "reference": false
+    },
+    "switchfoot": {
+      "pronunciation": "/swˈɪtʃfʊt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "synth": {
+      "pronunciation": "/sˈɪnθ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "synthase": {
+      "pronunciation": "/sˈɪnθeɪs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "tangy": {
+      "pronunciation": "/tˈæŋi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "tenerife": {
+      "pronunciation": "/tˌɛnɚɹˈiːf/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "testis": {
+      "pronunciation": "/tˈɛstiz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "thessalonians": {
+      "pronunciation": "/θˌɛsɐlˈoʊniənz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "threesomes": {
+      "pronunciation": "/θɹˈiːsʌmz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ths": {
+      "pronunciation": "/ti eɪtʃ ɛs/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "thumbnails": {
+      "pronunciation": "/θˈʌmneɪlz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "tickling": {
+      "pronunciation": "/tˈɪklɪŋ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "toilette": {
+      "pronunciation": "/tɔɪlˈɛt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "tokelau": {
+      "pronunciation": "/tˈoʊklaʊ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "toothache": {
+      "pronunciation": "/tˈuːθeɪk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "topographical": {
+      "pronunciation": "/tˌɑːpəɡɹˈæfɪkəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "torus": {
+      "pronunciation": "/tˈɔːɹəs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "trailblazing": {
+      "pronunciation": "/tɹˈeɪlbleɪzɪŋ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "transexual": {
+      "pronunciation": "/tɹænsˈɛkʃuːəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "trapezium": {
+      "pronunciation": "/tɹəpˈiːziəm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "trapezoid": {
+      "pronunciation": "/tɹˈæpɪzˌɔɪd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "trivium": {
+      "pronunciation": "/tɹˈɪviəm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "tuners": {
+      "pronunciation": "/tˈuːnɚz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "tyr": {
+      "pronunciation": "/tˈɪɹ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "tyrosine": {
+      "pronunciation": "/tˈaɪɹəsˌaɪn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "unc": {
+      "pronunciation": "/ˈʌŋk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "underpainting": {
+      "pronunciation": "/ˌʌndɚpˈeɪntɪŋ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "unfathomably": {
+      "pronunciation": "/ʌnˈfæð.ə.mə.bli/",
+      "source": "American broad IPA; voiced th as in fathom",
+      "reference": false
+    },
+    "unfurnished": {
+      "pronunciation": "/ʌnfˈɜːnɪʃt/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "unquenchable": {
+      "pronunciation": "/ʌŋkwˈɛntʃəbəl/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "untended": {
+      "pronunciation": "/ʌntˈɛndᵻd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "untitled": {
+      "pronunciation": "/ʌntˈaɪɾəld/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "uptime": {
+      "pronunciation": "/ˈʌptaɪm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "ureter": {
+      "pronunciation": "/jˈʊɹɹɛɾɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "uri": {
+      "pronunciation": "/ju ɑr aɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "usability": {
+      "pronunciation": "/jˌuːzəbˈɪlᵻɾi/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "uti": {
+      "pronunciation": "/ju ti aɪ/",
+      "source": "Curated common initialism",
+      "reference": false,
+      "letters": true
+    },
+    "utilisation": {
+      "pronunciation": "/jˌutələzˈeɪʃən/",
+      "source": "CMUdict: utilization",
+      "reference": false
+    },
+    "vac": {
+      "pronunciation": "/vˈæk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "vas deferens": {
+      "pronunciation": "/vˈæs dˈɛfɹənz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "vitalize": {
+      "pronunciation": "/vˈaɪɾəlˌaɪz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "wac": {
+      "pronunciation": "/wˈæk/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "wap": {
+      "pronunciation": "/wˈæp/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "warmhearted": {
+      "pronunciation": "/wˈɔːɹmhɑːɹɾᵻd/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "warwickshire": {
+      "pronunciation": "/wˈɔːɹɪkʃɚ/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "webcam": {
+      "pronunciation": "/wˈɛbkæm/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "webcams": {
+      "pronunciation": "/wˈɛbkæmz/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "webcasts": {
+      "pronunciation": "/wˈɛbkæsts/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "widescreen": {
+      "pronunciation": "/wˈaɪdskɹiːn/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "wigan": {
+      "pronunciation": "/wˈɪɡən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "wolverhampton": {
+      "pronunciation": "/wˌʊlvɚhˈæmptən/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "xmas": {
+      "pronunciation": "/ˈɛksmɐs/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "zirconia": {
+      "pronunciation": "/zɜːkˈoʊniə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    },
+    "zoophilia": {
+      "pronunciation": "/zuːfˈɪliə/",
+      "source": "eSpeak NG en-us reference for original ECDICT entry",
+      "reference": true
+    }
+  }
+}

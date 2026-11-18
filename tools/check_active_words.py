@@ -71,9 +71,10 @@ def main():
     expected_links = Counter()
     index_pages = manifest['chapter_index_pages']
     seen_index_pages = set()
+    reading_guides = reference_readings = letter_readings = 0
     assert not index_pages.keys() & manifest['category_counts'].keys()
     chapter_files = sorted(CHAPTERS.glob('*.md'))
-    entry = re.compile(r'^(\d+)\. \*\*(.*?)\*\*，读音：(.+?)，重音：(.+?)，中文：(.+?)；口语：① (.+) ② (.+)$')
+    entry = re.compile(r'^(\d+)\. \*\*(.*?)\*\*，读音：(.+?)，美式易读：(.+?)，读法理解：(.+?)，重音：(.+?)，中文：(.+?)；口语：① (.+) ② (.+)$')
     for path in chapter_files:
         heading, *lines = path.read_text(encoding='utf8').splitlines()
         assert heading.startswith('# '), ('Missing chapter title', path.name)
@@ -102,17 +103,33 @@ def main():
             if not match:
                 assert not re.match(r'^\d+\. ', line), 'Malformed entry: ' + line[:100]
                 continue
-            number, word, pronunciation, stress, meaning, ex1, ex2 = match.groups()
+            number, word, pronunciation, respelling, reading_notes, stress, meaning, ex1, ex2 = match.groups()
             counts[category] += 1
             assert int(number) == counts[category], (category, number)
             key = normalize(word)
             assert key not in word_lines, 'Duplicate: ' + key
-            assert all(x.strip() and x.strip() != '—' for x in (pronunciation, stress, meaning, ex1, ex2)), key
+            assert all(x.strip() and x.strip() != '—' for x in (pronunciation, respelling, reading_notes, stress, meaning, ex1, ex2)), key
+            reading_guides += 1
+            reference_readings += respelling.startswith('参考 ')
+            letter_readings += '字母拼读 ' in respelling
+            assert '参考' not in pronunciation or respelling.startswith('参考 '), ('Lost reference label', key)
+            reading_chunks = re.sub(r'（[^）]*）', '', respelling)
+            required_notes = Counter(re.findall(r"[A-Za-z']+", reading_chunks))
+            rendered_notes = Counter(re.findall(r"([A-Za-z']+)：", reading_notes))
+            assert required_notes and rendered_notes >= required_notes, ('Missing reading chunk explanation', key)
             assert ex1 != ex2, 'Repeated example: ' + key
             word_lines[key] = (category, ex1, ex2)
         assert 0 < counts[category] <= MAX_ENTRIES_PER_CHAPTER, ('Chapter exceeds entry limit or is empty', category)
         expected_links[category, counts[category], f'分册/{path.name}'] += 1
     assert len(word_lines) == manifest['entries']
+    guide_metadata = manifest['american_reading_guides']
+    assert reading_guides == guide_metadata['entries'] == len(word_lines)
+    assert reference_readings == guide_metadata['reference_entries']
+    assert letter_readings == guide_metadata['letter_spelling_entries']
+    assert (ROOT / guide_metadata['guide']).is_file()
+    reading_overrides = json.loads((DATA / 'american-reading-overrides.json').read_text(encoding='utf8'))['entries']
+    assert reading_overrides.keys() <= word_lines.keys(), 'Orphaned reading override'
+    assert all(row['source'] and row['pronunciation'] for row in reading_overrides.values())
     assert counts == manifest['category_counts']
     assert seen_index_pages == index_pages.keys(), 'Missing old chapter indexes'
     index = contents.read_text(encoding='utf8')
@@ -197,7 +214,10 @@ def main():
               'contents': '分类词库/README.md',
               'unresolved_original_labels': manifest['unresolved_original_labels'],
               'uncertain_context_entries': manifest['uncertain_context_entries'],
-              'supplemental_entries': len(supplemental_keys)}
+              'supplemental_entries': len(supplemental_keys),
+              'american_reading_guides': reading_guides,
+              'reference_reading_guides': reference_readings,
+              'letter_spelling_guides': letter_readings}
     (DATA / 'validation.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
     print(json.dumps(result, ensure_ascii=False))
 

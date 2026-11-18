@@ -20,6 +20,10 @@ Tatoeba 句子按 [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/
 
 ## 发音与释义
 
+每个整理版词条在原读音后增加「美式易读」和「读法理解」。按音段给出可连读的英文字母提示，并说明重读、元音参照词及前后辅音。格式、符号和完整示例见[美式易读说明](../美式易读说明.md)。所有原字段保留，原始来源文件也保留原样。
+
+新增字段优先根据现有美式 IPA 转写。原音标来自英式补充资料时，另用 CMUdict 对应的美式拼写读法；无美式词典对应项时，使用 eSpeak NG en-us 参考并显式标「参考」。补充来源及专门处理的短语、缩写记录在 [american-reading-overrides.json](american-reading-overrides.json)。这份记录只用于新字段；原音标不改写。原来未核定的参考读音继续保留参考标记。
+
 - [CMU Pronouncing Dictionary](https://github.com/cmusphinx/cmudict)：美式发音及重音；将 ARPAbet 转写为 IPA。原音节重音保留，IPA 的点号用于辅助拆读。许可见 [CMUdict.txt](licenses/CMUdict.txt)。
 - [ECDICT](https://github.com/skywind3000/ECDICT)：补充原资料缺少的音标和中文释义，采用其 MIT 许可；见 [ECDICT.txt](licenses/ECDICT.txt)。保留其音标的条目可能采用英式音值。IPA 中 ˈ 表示主重音，ˌ 表示次重音。拼读中的大写音节重读。
 - [Princeton WordNet 3.0](https://wordnet.princeton.edu/)：辅助词性和语义分类，结合原专题笔记与人工修正；见 [WordNet.txt](licenses/WordNet.txt)。
@@ -39,6 +43,8 @@ Tatoeba 句子按 [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/
 
 ## 校验
 
-在仓库根目录运行 `python tools/check_active_words.py`，检查原始来源覆盖（扣除用户明确排除的人名词条）、词头唯一、每类编号、读音与释义非空、每条两句例句、分册条数上限、分类目录及旧分册跳转，以及全部原文件未被修改或删除。
+在仓库根目录运行 `python tools/check_active_words.py`，检查原始来源覆盖（扣除用户明确排除的人名词条）、词头唯一、每类编号、读音与释义非空、美式易读与逐段解释覆盖、每条两句例句、分册条数上限、分类目录及旧分册跳转，以及全部原文件未被修改或删除。
+
+修改词条读音或补充读音记录后，运行 `python tools/add_american_reading_guides.py` 更新两个新字段；运行时不需要网络或第三方 Python 包。用 `python tools/add_american_reading_guides.py --check` 检查是否存在未同步的字段。美式音段转换的专项测试命令为 `python -m unittest discover -s tools -p "test_american_reading.py"`。
 
 修改词条时，更新对应分册与出处记录。分类或条数变动时，同步更新目录和清单记录。校验报告见 [validation.json](validation.json)。

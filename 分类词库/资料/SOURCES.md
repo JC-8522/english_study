@@ -10,6 +10,18 @@
 
 常用词查漏参考 [SUBTLEX-US 美式影视字幕词频](https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexus) 和 [New General Service List 1.2](https://www.newgeneralservicelist.com/new-general-service-list)。根据中级学习需求筛选，优先收录有实际使用场景、词库缺少的词头，如 `burglary`、`wheeze` 和 `snarky`。词频帮助发现缺口，释义和例句为自编。
 
+## 超市场景补词
+
+2026-11-19 按逛超市的场景补充 371 条词汇，范围参考 [Safeway 的果蔬货区](https://www.safeway.com/shop/mf/aisles/fruits-vegetables) 和 [Costco 的食品与家用品分区](https://www.costco.com/grocery-household.html)。覆盖食材、食品标签、熟食冷冻食品、清洁护理用品、包装规格、会员优惠与结账。按货区阅读可用[超市购物导览](../超市购物导览.md)。
+
+新增词头记录在 `manifest.json` 的 `supplemental_batches` 中，每条新增词汇有两句自编日常口语例句。新增前与全库比对大小写、空格、连字符、重音符号等拼写差异，并检查常见单复数形式。已有的 `diaper` 继续使用原词条；已收录的 `figs` 移入水果类。本次不增加另一个 `fig` 词条。
+
+同步复核食材分类：将西兰花、菠菜、葱蒜、可食用菌、常见水果与鱼类等 118 个已有词重新归类，拆分原来的肉蛋海鲜、蔬菜豆类及谷物坚果混合分册。保留原分册地址为跳转页；修正 27 个已有词的明确释义或例句问题，例如将 `anchovy` 的公园观察句改为点餐和调味用法，将 `cranberry` 明确为蔓越莓。全部原始来源文件保持原样。
+
+鱼类名称参考 [FDA Seafood List](https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=SeafoodList&showAll=true&type=basic)，区分市场通称与具体鱼类。`bass` 在一个词条内列出 /bæs/ 的鱼义与 /beɪs/ 的音乐义；`sea bass`、`branzino` 等按各自常见用途收录。读音以 CMUdict 和编写的美式 IPA 为基础，并对照 Merriam-Webster 校对易混读法，例如 [bass](https://www.merriam-webster.com/dictionary/bass)、[clementine](https://www.merriam-webster.com/dictionary/clementine)、[fillet](https://www.merriam-webster.com/dictionary/fillet) 等。
+
+`aroma` 的美式易读改为 **uh-ROH-muh**，对照 [Merriam-Webster 的读法](https://www.merriam-webster.com/dictionary/aroma)，让 r 与第二段的重读元音相连。原始笔记及原有音标不改写。
+
 ## 例句
 
 优先选择较短的日常对话，并为原笔记短语、专业场景、专名和不合适的原句补写例句。原笔记里的非标准拼写、其他语言词形和不自然的组合仍可查到；条目注明更自然说法时，例句练习该自然说法，而不是重复错误。
@@ -20,7 +32,7 @@ Tatoeba 句子按 [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/
 
 ## 发音与释义
 
-每个整理版词条在原读音后增加「美式易读」和「读法理解」。按音段给出可连读的英文字母提示，并说明重读、元音参照词及前后辅音。格式、符号和完整示例见[美式易读说明](../美式易读说明.md)。所有原字段保留，原始来源文件也保留原样。
+每个整理版词条在读音后提供「美式易读」和「读法理解」。按音段给出可连读的英文字母提示，并说明重读、元音参照词及前后辅音。格式、符号和完整示例见[美式易读说明](../美式易读说明.md)。整理版的明确错误可复核校正，原始来源文件保留原样。
 
 新增字段优先根据现有美式 IPA 转写。原音标来自英式补充资料时，另用 CMUdict 对应的美式拼写读法；无美式词典对应项时，使用 eSpeak NG en-us 参考并显式标「参考」。补充来源及专门处理的短语、缩写记录在 [american-reading-overrides.json](american-reading-overrides.json)。这份记录只用于新字段；原音标不改写。原来未核定的参考读音继续保留参考标记。
 
@@ -46,5 +58,7 @@ Tatoeba 句子按 [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/
 在仓库根目录运行 `python tools/check_active_words.py`，检查原始来源覆盖（扣除用户明确排除的人名词条）、词头唯一、每类编号、读音与释义非空、美式易读与逐段解释覆盖、每条两句例句、分册条数上限、分类目录及旧分册跳转，以及全部原文件未被修改或删除。
 
 修改词条读音或补充读音记录后，运行 `python tools/add_american_reading_guides.py` 更新两个新字段；运行时不需要网络或第三方 Python 包。用 `python tools/add_american_reading_guides.py --check` 检查是否存在未同步的字段。美式音段转换的专项测试命令为 `python -m unittest discover -s tools -p "test_american_reading.py"`。
+
+运行 `python -m unittest discover -s tools -p "test_*.py"` 可同时检查超市场景的词义、分类、美式读法及拼写去重规则。
 
 修改词条时，更新对应分册与出处记录。分类或条数变动时，同步更新目录和清单记录。校验报告见 [validation.json](validation.json)。

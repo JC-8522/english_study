@@ -22,6 +22,24 @@
 
 `aroma` 的美式易读改为 **uh-ROH-muh**，对照 [Merriam-Webster 的读法](https://www.merriam-webster.com/dictionary/aroma)，让 r 与第二段的重读元音相连。原始笔记及原有音标不改写。
 
+## 14 个日常专题补词与审校
+
+2026-11-19 按运动健身、体育赛事、法律、经济、政治、旅游、建筑、西方餐厅、饮品、天气、环境、植物、汽车和公共交通检查使用场景，新增 418 条中级日常词汇。按场景打开分册可用[日常专题导览](../日常专题导览.md)，逐项变更见[本轮审校记录](daily-domain-audit.json)。这批词没有使用字幕词频计算排名；筛选依据是明确的日常场景和现有词库的缺口。
+
+新增前检查全库词头、大小写、空格、连字符、重音符号及常见单复数。已有 `reps` 不再增加 `rep`；已有 `short layover` 和 `jump-start a car` 的内容继续使用。`term limits`、`wind gust` 和 `miss the last train` 分别通过 `term limit`、`gust` 和 `last train` 的词条学习。已有多义词补充缺失含义，例如 `prune` 的修剪、`cabinet` 的内阁、`shoulder` 的路肩。
+
+这一轮修订 151 条已有词的释义、例句或读音，并调整 418 条已有词的主要分类。体育按健身安排、动作、器械、赛事、球类得分与耐力运动组织；法律区分法院职业、诉讼程序、证据裁决与民事争议；政治区分选举、政府立法与公共政策；环境、植物和汽车也按具体含义分组。旧分册地址继续可用，全部原始文件保留。
+
+中文释义和本轮两句口语例句为自编；专业含义的核对来源包括：
+
+- [美国联邦法院法律词汇表](https://www.uscourts.gov/glossary)：用于区分 arraignment、deposition、burden of proof、injunction 等程序或法律概念；词条不设置具体州的诉讼期限或资格条件。
+- [CFPB 金融词汇表](https://www.consumerfinance.gov/consumer-tools/educator-tools/youth-financial-education/glossary/)与 [APR 和利率的区别](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/)：核对信用、借贷和工资相关词义；APR 按借款成本理解，APY 按考虑复利的收益率理解。
+- [美国参议院对 filibuster 与 cloture 的说明](https://www.senate.gov/about/powers-procedures/filibusters-cloture/overview.htm)与 [USA.gov 选举主题](https://www.usa.gov/voting-and-elections)：核对议事阻挠、选民登记和选举阶段等概念。
+- [美国国家气象局词汇表](https://www.weather.gov/otx/Glossary_of_Weather_Terms)：区分美式 sleet 的冰粒与 freezing rain 的液态雨滴着地后结冰，以及 wind chill、snow flurries 等含义。
+- [美国植物园室内植物说明](https://www.usbg.gov/houseplants)与 [明尼苏达大学 Monstera 说明](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/propagating-monstera-deliciosa)：核对常见室内观叶植物名称；园艺例句表达日常沟通场景。
+
+美式读音以 CMUdict 为基础，按词义复核同形异音、外来餐饮词和字母缩写。例：`moped` 按车型读 **MOH-pehd**，`wind chill` 中 wind 读 /wɪnd/，`tax refund` 采用名词重音，`separate checks` 采用形容词读法。`RBI` 改为 R-B-I 的字母读音，`use-by date` 中 use 按 /juz/ 处理。核对的词典示例包括 [moped](https://www.merriam-webster.com/dictionary/moped)、[cappuccino](https://www.merriam-webster.com/dictionary/cappuccino)、[pothos](https://www.merriam-webster.com/dictionary/pothos)、[charcuterie](https://www.merriam-webster.com/dictionary/charcuterie)、[digestif](https://www.merriam-webster.com/dictionary/digestif)、[prix fixe](https://dictionary.cambridge.org/us/pronunciation/english/prix-fixe)及 [cortado](https://www.collinsdictionary.com/dictionary/english/cortado)。本轮核实的整理版音标可以校正；原始笔记保持不变。
+
 ## 例句
 
 优先选择较短的日常对话，并为原笔记短语、专业场景、专名和不合适的原句补写例句。原笔记里的非标准拼写、其他语言词形和不自然的组合仍可查到；条目注明更自然说法时，例句练习该自然说法，而不是重复错误。
@@ -34,7 +52,7 @@ Tatoeba 句子按 [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/
 
 每个整理版词条在读音后提供「美式易读」和「读法理解」。按音段给出可连读的英文字母提示，并说明重读、元音参照词及前后辅音。格式、符号和完整示例见[美式易读说明](../美式易读说明.md)。整理版的明确错误可复核校正，原始来源文件保留原样。
 
-新增字段优先根据现有美式 IPA 转写。原音标来自英式补充资料时，另用 CMUdict 对应的美式拼写读法；无美式词典对应项时，使用 eSpeak NG en-us 参考并显式标「参考」。补充来源及专门处理的短语、缩写记录在 [american-reading-overrides.json](american-reading-overrides.json)。这份记录只用于新字段；原音标不改写。原来未核定的参考读音继续保留参考标记。
+新增字段优先根据现有美式 IPA 转写。原音标来自英式补充资料时，另用 CMUdict 对应的美式拼写读法；无美式词典对应项时，使用 eSpeak NG en-us 参考并显式标「参考」。补充来源及专门处理的短语、缩写记录在 [american-reading-overrides.json](american-reading-overrides.json)。读法记录用于生成两个辅助字段；已核实的整理版音标修订另在审校记录中列出，原始来源文件不改写。原来未核定的参考读音继续保留参考标记，核定后的读音可移除此标记。
 
 - [CMU Pronouncing Dictionary](https://github.com/cmusphinx/cmudict)：美式发音及重音；将 ARPAbet 转写为 IPA。原音节重音保留，IPA 的点号用于辅助拆读。许可见 [CMUdict.txt](licenses/CMUdict.txt)。
 - [ECDICT](https://github.com/skywind3000/ECDICT)：补充原资料缺少的音标和中文释义，采用其 MIT 许可；见 [ECDICT.txt](licenses/ECDICT.txt)。保留其音标的条目可能采用英式音值。IPA 中 ˈ 表示主重音，ˌ 表示次重音。拼读中的大写音节重读。
@@ -59,6 +77,6 @@ Tatoeba 句子按 [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/
 
 修改词条读音或补充读音记录后，运行 `python tools/add_american_reading_guides.py` 更新两个新字段；运行时不需要网络或第三方 Python 包。用 `python tools/add_american_reading_guides.py --check` 检查是否存在未同步的字段。美式音段转换的专项测试命令为 `python -m unittest discover -s tools -p "test_american_reading.py"`。
 
-运行 `python -m unittest discover -s tools -p "test_*.py"` 可同时检查超市场景的词义、分类、美式读法及拼写去重规则。
+运行 `python -m unittest discover -s tools -p "test_*.py"` 可同时检查超市与日常专题的词义、分类、美式读法及拼写去重规则。
 
 修改词条时，更新对应分册与出处记录。分类或条数变动时，同步更新目录和清单记录。校验报告见 [validation.json](validation.json)。

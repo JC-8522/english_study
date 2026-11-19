@@ -1502,9 +1502,9 @@
       "reference": true
     },
     "rbi": {
-      "pronunciation": "/ˌɑːɹbˌiːˈaɪ/",
-      "source": "eSpeak NG en-us reference for original ECDICT entry",
-      "reference": true
+      "pronunciation": "/ɑr bi aɪ/",
+      "reference": false,
+      "source": "Baseball initialism RBI, spoken R-B-I"
     },
     "remix": {
       "pronunciation": "/ɹᵻmˈɪks/",

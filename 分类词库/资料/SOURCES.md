@@ -40,6 +40,16 @@
 
 美式读音以 CMUdict 为基础，按词义复核同形异音、外来餐饮词和字母缩写。例：`moped` 按车型读 **MOH-pehd**，`wind chill` 中 wind 读 /wɪnd/，`tax refund` 采用名词重音，`separate checks` 采用形容词读法。`RBI` 改为 R-B-I 的字母读音，`use-by date` 中 use 按 /juz/ 处理。核对的词典示例包括 [moped](https://www.merriam-webster.com/dictionary/moped)、[cappuccino](https://www.merriam-webster.com/dictionary/cappuccino)、[pothos](https://www.merriam-webster.com/dictionary/pothos)、[charcuterie](https://www.merriam-webster.com/dictionary/charcuterie)、[digestif](https://www.merriam-webster.com/dictionary/digestif)、[prix fixe](https://dictionary.cambridge.org/us/pronunciation/english/prix-fixe)及 [cortado](https://www.collinsdictionary.com/dictionary/english/cortado)。本轮核实的整理版音标可以校正；原始笔记保持不变。
 
+## 性格与抽象概念补词
+
+2026-11-20 围绕 `cupidity` 及人物描写、动机和抽象感受，新增 109 条词汇，另修订 22 条已有词的明确释义或例句问题，调整 86 条已有词的主分类。阅读入口为[性格与抽象概念导览](../性格与抽象概念导览.md)，逐项记录见[本批审校记录](character-concept-audit.json)。新增词头列在 `manifest.json` 的 `character-concepts-2026-11-20` 批次中，218 句新增例句均为自编。
+
+按中级学习需要选择能用于描述人、讨论动机、聊工作关系或书影音的词，不依据未计算的词频把全部项目称作高频口语。`cupidity`、`avarice` 标为偏书面，`disingenuous` 等标为偏正式，`brown-noser` 标为贬义口语；结合语境练习，并区分 `frugal/thrifty` 与 `stingy`、`skeptical` 与 `cynical`、`ambivalent` 与 `indifferent`。
+
+词义和读音对照词典核查，例如 [cupidity](https://www.merriam-webster.com/dictionary/cupidity) 指强烈贪求财富，日常更常用 `greed`；[avarice](https://www.merriam-webster.com/dictionary/avarice) 也是较正式的贪婪用语；[disingenuous](https://www.merriam-webster.com/dictionary/disingenuous) 涉及缺少坦诚、故作真诚等含义。其他核对示例包括 [scruples](https://www.merriam-webster.com/dictionary/scruples)、[sycophant](https://www.merriam-webster.com/dictionary/sycophant)、[naivete](https://www.merriam-webster.com/dictionary/naivete)、[pretension](https://www.merriam-webster.com/dictionary/pretension)、[magnanimity](https://www.merriam-webster.com/dictionary/magnanimity) 与 [ingratitude](https://www.merriam-webster.com/dictionary/ingratitude)。中文释义和例句重新编写，不复制词典例句。
+
+先与全库和已有批次比对规范拼写及常见单复数；`naïveté/naivety`、`pretence`、`scepticism`、`rancour` 与 `tight-fisted` 作为拼写说明保存在相应词条中，不另外增加词头。已有 `greed`、`greedy`、`envy` 等继续使用原条目。`vanity`、`vain`、`conceit`、`petty` 和 `entitlement` 补全性格语境；`guts` 校正为勇气、胆量等常用义。保留原文件和已有分册地址。
+
 ## 例句
 
 优先选择较短的日常对话，并为原笔记短语、专业场景、专名和不合适的原句补写例句。原笔记里的非标准拼写、其他语言词形和不自然的组合仍可查到；条目注明更自然说法时，例句练习该自然说法，而不是重复错误。
@@ -77,6 +87,6 @@ Tatoeba 句子按 [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/
 
 修改词条读音或补充读音记录后，运行 `python tools/add_american_reading_guides.py` 更新两个新字段；运行时不需要网络或第三方 Python 包。用 `python tools/add_american_reading_guides.py --check` 检查是否存在未同步的字段。美式音段转换的专项测试命令为 `python -m unittest discover -s tools -p "test_american_reading.py"`。
 
-运行 `python -m unittest discover -s tools -p "test_*.py"` 可同时检查超市与日常专题的词义、分类、美式读法及拼写去重规则。
+运行 `python -m unittest discover -s tools -p "test_*.py"` 可同时检查超市、日常专题与性格抽象词的词义、分类、美式读法及拼写去重规则。
 
 修改词条时，更新对应分册与出处记录。分类或条数变动时，同步更新目录和清单记录。校验报告见 [validation.json](validation.json)。

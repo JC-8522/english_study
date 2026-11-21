@@ -28,6 +28,13 @@ def normalize(text):
     text = re.sub(r'\\([*_`\\\[\]])', r'\1', html.unescape(text))
     return re.sub(r'\s+', ' ', text).strip(' *`.,;:!?“”"').casefold()
 
+
+def canonical_spelling(text):
+    """Compare new additions across accents, spacing, hyphens and apostrophes."""
+    text = unicodedata.normalize('NFKD', normalize(text))
+    text = ''.join(char for char in text if not unicodedata.combining(char))
+    return re.sub(r"[\s\-'’]", '', text)
+
 def read_tsv(name):
     with (DATA / name).open(encoding='utf8', newline='') as stream:
         return list(csv.DictReader(stream, delimiter='\t'))
@@ -146,6 +153,16 @@ def main():
     assert len(supplemental_keys) == len(supplemental), 'Duplicate supplemental word'
     assert not original_keys & supplemental_keys, 'Supplemental word is already in the original sources'
     assert original_keys | supplemental_keys == word_lines.keys(), 'Source/output coverage differs'
+    batches = manifest.get('supplemental_batches', [])
+    batch_words = [word for batch in batches for word in batch['words']]
+    assert len(batch_words) == len(set(batch_words)), 'Word repeated between supplemental batches'
+    assert set(batch_words) <= supplemental_keys, 'Supplemental batch has an untracked word'
+    spellings = defaultdict(set)
+    for word in word_lines:
+        spellings[canonical_spelling(word)].add(word)
+    for word in batch_words:
+        assert normalize(word) == word, ('Batch word is not normalized', word)
+        assert spellings[canonical_spelling(word)] == {word}, ('Equivalent spelling already present', word)
     source_rows = defaultdict(set)
     for row in provenance:
         assert row['category'] == word_lines[row['word']][0]
@@ -217,7 +234,10 @@ def main():
               'supplemental_entries': len(supplemental_keys),
               'american_reading_guides': reading_guides,
               'reference_reading_guides': reference_readings,
-              'letter_spelling_guides': letter_readings}
+              'letter_spelling_guides': letter_readings,
+              'duplicate_headwords': 0,
+              'supplemental_batches': len(batches),
+              'latest_supplemental_batch_entries': len(batches[-1]['words']) if batches else 0}
     (DATA / 'validation.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
     print(json.dumps(result, ensure_ascii=False))
 

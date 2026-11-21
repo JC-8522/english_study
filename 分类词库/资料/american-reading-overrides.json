@@ -3,7 +3,8 @@
   "sources": {
     "CMUdict": "https://github.com/cmusphinx/cmudict",
     "eSpeak NG": "https://github.com/espeak-ng/espeak-ng",
-    "burglary": "https://www.merriam-webster.com/dictionary/burglary"
+    "burglary": "https://www.merriam-webster.com/dictionary/burglary",
+    "aroma": "https://www.merriam-webster.com/dictionary/aroma"
   },
   "entries": {
     "abn": {
@@ -1501,9 +1502,9 @@
       "reference": true
     },
     "rbi": {
-      "pronunciation": "/ˌɑːɹbˌiːˈaɪ/",
-      "source": "eSpeak NG en-us reference for original ECDICT entry",
-      "reference": true
+      "pronunciation": "/ɑr bi aɪ/",
+      "reference": false,
+      "source": "Baseball initialism RBI, spoken R-B-I"
     },
     "remix": {
       "pronunciation": "/ɹᵻmˈɪks/",
@@ -2021,6 +2022,11 @@
       "pronunciation": "/zuːfˈɪliə/",
       "source": "eSpeak NG en-us reference for original ECDICT entry",
       "reference": true
+    },
+    "aroma": {
+      "pronunciation": "/ə.ˈroʊ.mə/",
+      "source": "Merriam-Webster aroma: unstressed a + stressed ro + ma",
+      "reference": false
     }
   }
 }
